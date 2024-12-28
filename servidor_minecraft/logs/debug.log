@@ -1856,3 +1856,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [28Dec2024 00:07:42.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nacho_921 left the game
 [28Dec2024 00:10:41.346] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [28Dec2024 00:10:41.364] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Dec2024 00:15:41.320] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Dec2024 00:15:41.326] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Dec2024 00:20:41.328] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Dec2024 00:20:41.334] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
