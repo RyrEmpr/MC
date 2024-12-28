@@ -1,4 +1,16 @@
 {
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-12-28 02:35:48 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2024-12-28 02:35:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_plains": "2024-12-28 02:29:16 +0000"
