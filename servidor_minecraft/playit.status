@@ -1,1 +1,69 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 1 tunnels
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 1 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1735351513824 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351516887 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351520087 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351523153 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351526231 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351529317 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1735351544412 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351547477 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1735351562569 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351565636 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351568789 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1735351571848 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+filter-kyle.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
