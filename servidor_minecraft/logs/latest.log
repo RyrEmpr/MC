@@ -416,3 +416,9 @@
 [28Dec2024 00:06:17.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nacho_921: Set own game mode to Creative Mode]
 [28Dec2024 00:07:42.620] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nacho_921 lost connection: Disconnected
 [28Dec2024 00:07:42.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nacho_921 left the game
+[28Dec2024 00:28:25.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Dec2024 00:28:25.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Dec2024 00:28:25.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Dec2024 00:28:28.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Dec2024 00:28:30.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[28Dec2024 00:28:30.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end

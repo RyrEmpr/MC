@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 167.58.227.85
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735230154330
+  login: 1735226240244
+money: '0'
+last-account-name: SantRss
+logoutlocation:
+  world: 2a6a0231-a3f4-4963-b298-c7cc4f7a5371
+  world-name: McExtreme
+  x: 37.135941877358725
+  y: 126.2413684898281
+  z: -19.731634805001793
+  yaw: -77.562744140625
+  pitch: 4.050022602081299
