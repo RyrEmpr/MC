@@ -1,0 +1,17 @@
+{
+	id: "c027a776-05f7-3bcb-8c7e-f3ce05f002cd"
+	type: "player"
+	player_name: "SantRss"
+	ranks: {
+		c027a776-05f7-3bcb-8c7e-f3ce05f002cd: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "SantRss"
+		"ftbteams:description": ""
+		"ftbteams:color": "#A959FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
