@@ -470,6 +470,12 @@
 				item: "minecraft:oak_log"
 				count: 40L
 			}]
+			rewards: [{
+				id: "553FB47400E3FFB9"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 30
+			}]
 		}
 		{
 			title: "&aConsigue&f &eÈlitras"

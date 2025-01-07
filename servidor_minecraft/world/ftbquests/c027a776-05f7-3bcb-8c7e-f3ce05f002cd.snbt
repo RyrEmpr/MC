@@ -2,7 +2,7 @@
 	version: 1
 	uuid: "c027a77605f73bcb8c7ef3ce05f002cd"
 	name: "SantRss"
-	can_edit: false
+	can_edit: true
 	lock: false
 	auto_pin: false
 	chapter_pinned: false
