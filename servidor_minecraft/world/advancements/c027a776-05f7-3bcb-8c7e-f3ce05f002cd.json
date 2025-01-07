@@ -1,43 +1,19 @@
 {
   "dungeons_arise:wda_root": {
     "criteria": {
-      "WDA": "2025-01-07 03:10:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2025-01-07 03:50:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2025-01-07 03:50:23 +0000"
-    },
-    "done": true
-  },
-  "create:root": {
-    "criteria": {
-      "0": "2025-01-07 03:18:49 +0000"
+      "WDA": "2025-01-07 14:09:50 +0000"
     },
     "done": true
   },
   "iceandfire:iceandfire/root": {
     "criteria": {
-      "tick": "2025-01-07 03:10:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2025-01-07 03:50:23 +0000"
+      "tick": "2025-01-07 14:09:50 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_pine_taiga": "2025-01-07 03:10:24 +0000"
+      "minecraft:bamboo_jungle": "2025-01-07 14:09:50 +0000"
     },
     "done": false
   },
