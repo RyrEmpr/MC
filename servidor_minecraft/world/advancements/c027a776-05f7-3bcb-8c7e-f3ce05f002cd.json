@@ -5,6 +5,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-01-07 03:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-01-07 03:50:23 +0000"
+    },
+    "done": true
+  },
   "create:root": {
     "criteria": {
       "0": "2025-01-07 03:18:49 +0000"
@@ -14,6 +26,12 @@
   "iceandfire:iceandfire/root": {
     "criteria": {
       "tick": "2025-01-07 03:10:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-01-07 03:50:23 +0000"
     },
     "done": true
   },
