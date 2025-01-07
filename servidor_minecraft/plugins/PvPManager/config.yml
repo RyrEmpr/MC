@@ -119,10 +119,10 @@ Tagged In Combat:
       # Also blocks physical interactions, having PRESSURE_PLATE also allows blocking the activation of pressure plates
       List:
       - 'DOOR'
+      - 'FENCE_GATE'
       - 'BUTTON'
       - 'BED'
-      - 'SLAB'
-      - 'STAIRS'
+      - 'PRESSURE_PLATE'
       - 'CARPET'
     Elytra: false
     Eat: false
