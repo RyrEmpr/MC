@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736454742843
-  login: 1736454648686
+  logout: 1736455084499
+  login: 1736455047891
 money: '0'
 last-account-name: SantRss
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: -376.76804621341023
   y: 66.0
   z: -453.9811384590179
-  yaw: -91.8797607421875
-  pitch: 4.799312591552734
+  yaw: -16.12701416015625
+  pitch: 56.99934387207031
