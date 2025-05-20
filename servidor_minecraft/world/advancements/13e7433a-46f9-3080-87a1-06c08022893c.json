@@ -281,6 +281,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-05-20 21:27:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-05-20 21:08:16 +0000"
@@ -408,6 +414,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-20 21:27:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-05-20 21:27:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2025-05-20 21:04:22 +0000"
@@ -477,6 +495,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-05-20 21:11:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_sword": "2025-05-20 21:27:31 +0000"
     },
     "done": true
   },
@@ -562,10 +586,13 @@
     "criteria": {
       "minecraft:taiga": "2025-05-20 02:51:57 +0000",
       "minecraft:frozen_river": "2025-05-20 20:41:16 +0000",
+      "minecraft:beach": "2025-05-20 21:32:13 +0000",
       "minecraft:river": "2025-05-20 21:06:34 +0000",
+      "minecraft:stony_shore": "2025-05-20 21:28:28 +0000",
       "minecraft:snowy_plains": "2025-05-20 20:41:35 +0000",
       "minecraft:snowy_taiga": "2025-05-20 20:40:59 +0000",
       "minecraft:forest": "2025-05-20 20:39:30 +0000",
+      "minecraft:old_growth_birch_forest": "2025-05-20 21:33:59 +0000",
       "minecraft:meadow": "2025-05-20 21:20:59 +0000",
       "minecraft:plains": "2025-05-20 21:19:50 +0000"
     },
@@ -757,6 +784,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-05-20 21:30:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-05-20 21:08:16 +0000"
@@ -847,6 +880,12 @@
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2025-05-20 21:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2025-05-20 21:27:31 +0000"
     },
     "done": true
   },
