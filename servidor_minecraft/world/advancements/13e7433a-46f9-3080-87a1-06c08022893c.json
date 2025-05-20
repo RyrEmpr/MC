@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-05-20 01:23:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_log": "2025-05-20 00:24:47 +0000"
@@ -241,6 +247,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "porkchop": "2025-05-20 01:26:07 +0000",
       "mutton": "2025-05-20 01:16:55 +0000",
       "glow_berries": "2025-05-20 00:41:40 +0000",
       "dried_kelp": "2025-05-20 00:35:53 +0000"
@@ -580,6 +587,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-05-09 23:03:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-05-20 01:23:24 +0000"
     },
     "done": true
   },
@@ -1155,6 +1168,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-05-20 01:09:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-05-20 01:23:24 +0000"
     },
     "done": true
   },

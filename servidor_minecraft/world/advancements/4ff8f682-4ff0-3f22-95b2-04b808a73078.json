@@ -1049,11 +1049,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-05-20 01:26:51 +0000",
       "minecraft:bamboo_jungle": "2025-05-20 00:21:46 +0000",
       "minecraft:beach": "2025-05-20 00:26:08 +0000",
       "minecraft:dark_forest": "2025-05-20 00:25:49 +0000",
       "minecraft:lukewarm_ocean": "2025-05-20 00:28:38 +0000",
-      "minecraft:lush_caves": "2025-05-20 00:28:17 +0000"
+      "minecraft:lush_caves": "2025-05-20 00:28:17 +0000",
+      "minecraft:ocean": "2025-05-20 01:26:13 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-05-20 01:27:05 +0000"
     },
     "done": false
   },
