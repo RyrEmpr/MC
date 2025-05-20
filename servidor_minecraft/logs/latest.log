@@ -1,595 +1,106 @@
-2025-01-20 19:40:49,523 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
-2025-01-20 19:40:49,551 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.13 by Ubuntu
-2025-01-20 19:40:51,590 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
-2025-01-20 19:40:54,022 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(55)[m: Found 2 dependencies adding them to mods collection
-2025-01-20 19:41:00,535 [32mINFO [m [m[main][m [mmixin.info(97)[m: Compatibility level set to JAVA_17
-2025-01-20 19:41:00,794 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
-2025-01-20 19:41:00,827 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
-2025-01-20 19:41:28,479 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(62)[m: Initializing Easy NPC (Forge) ...
-2025-01-20 19:41:28,488 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(64)[m: 🗣 Register Easy NPC Debug Manager ...
-2025-01-20 19:41:28,500 [33mWARN [m [m[modloading-worker-0][m [mEasy NPC.checkForDebugLogging(92)[m: [Debug Manager] Detected debug log level for Easy NPC with ALL!
-2025-01-20 19:41:28,503 [33mWARN [m [m[modloading-worker-0][m [mEasy NPC.checkForDebugLogging(100)[m: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
-2025-01-20 19:41:28,507 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.setLogLevel(48)[m: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
-2025-01-20 19:41:28,513 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(72)[m: 🗣 Register Easy NPC Constants ...
-2025-01-20 19:41:28,529 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(76)[m: 🗣 Register Easy NPC Configuration ...
-2025-01-20 19:41:28,539 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.prepareConfiguration(70)[m: [Config] Updated configuration path to /workspaces/MC/servidor_minecraft/config/easy_npc
-2025-01-20 19:41:28,542 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.registerCommonConfig(54)[m: [Config] Registering common configuration ...
-2025-01-20 19:41:28,571 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.updateConfigFileIfChanged(156)[m: [Config] Render Entity Type Support Configuration
-
- Please note that this configuration file only includes confirmed entity types.
- If an entity type is not listed here, it doesn't mean it's automatically supported or unsupported!
- is up to date: {minecraft:giant=true, dannys_expansion:mundane_slime=false, botania:pool_minecart=false, botania:ender_air=false, minecraft:end_crystal=false, simple_mobs:rumble=false, minecraft:experience_bottle=false, minecraft:glow_squid=true, minecraft:trader_llama=true, orcz:decaystrikecustom=false, simple_mobs:staff_usage=false, minecraft:horse=true, the_bumblezone:purple_spike_entity=false, minecraft:llama=true, minecraft:husk=true, minecraft:cave_spider=true, minecraft:enderman=true, minecraft:dolphin=true, frostiful:freezing_wind=false, minecraft:shulker_bullet=false, simple_mobs:projecttest=false, minecraft:donkey=true, minecraft:area_effect_cloud=false, minecraft:ghast=false, frostiful:packed_snowball=false, twigs:pebble=false, handcrafted:fancy_painting=false, moretotems:summoned_zombie=false, minecraft:piglin_brute=true, minecraft:creeper=true, minecraft:glow_item_frame=false, minecraft:bee=true, botania:mana_storm=false, minecraft:illusioner=true, minecraft:player=false, minecraft:wither_skull=false, minecraft:mooshroom=true, smallships:galley=false, create:stationary_contraption=false, minecraft:eye_of_ender=false, minecraft:villager=true, ad_astra:tier_1_rocket=false, botania:magic_landmine=false, minecraft:stray=true, smallships:cog=false, minecraft:falling_block=false, minecraft:drowned=true, minecraft:axolotl=true, botania:doppleganger=false, botania:flame_ring=false, botania:ender_air_bottle=false, minecraft:tnt=false, ae2:tiny_tnt_primed=false, botania:magic_missile=false, create:crafting_blueprint=false, create:contraption=false, minecraft:strider=true, smallships:brigg=false, minecraft:guardian=true, minecraft:parrot=true, minecraft:arrow=false, lootr:lootr_minecart=false, the_bumblezone:pollen_puff=false, minecraft:chest_minecart=false, minecraft:wither=true, minecraft:ender_pearl=false, create:super_glue=false, minecraft:wandering_trader=true, handcrafted:seat=false, simple_mobs:dragon_smoke=false, minecraft:wither_skeleton=true, botania:thorn_chakram=false, minecraft:iron_golem=true, botania:pixie=false, dummmmmmy:target_dummy=false, minecraft:elder_guardian=true, graveyard:skull=false, minecraft:mule=true, the_bumblezone:bee_stinger=false, the_bumblezone:thrown_stinger_spear=false, minecraft:armor_stand=false, aquamirae:pillagers_patrol=false, minecraft:vindicator=true, botania:mana_burst=false, minecraft:evoker=true, minecraft:slime=false, minecraft:leash_knot=false, botania:babylon_weapon=false, minecraft:pufferfish=true, terraform:boat=false, swampier_swamps:swamp_gas=false, minecraft:experience_orb=false, ad_astra:tier_3_rocket=false, minecraft:fox=true, botania:thrown_item=false, the_bumblezone:cosmic_crystal_entity=false, graveyard:ghouling=false, botania:player_mover=false, minecraft:silverfish=true, minecraft:endermite=true, minecraft:firework_rocket=false, minecraft:chicken=true, minecraft:zombie=true, the_bumblezone:sentry_watcher=false, minecraft:spawner_minecart=false, botania:spark=false, botania:falling_star=false, minecraft:hoglin=true, minecraft:boat=false, minecraft:trident=false, friendsandfoes:player_illusion=false, minecraft:polar_bear=true, minecraft:phantom=false, ad_astra:tier_4_rocket=false, minecraft:zombified_piglin=true, minecraft:witch=true, ad_astra:tier_2_rocket=false, minecraft:pig=true, minecraft:turtle=true, moretotems:summoned_bee=false, minecraft:sheep=true, minecraft:ender_dragon=false, minecraft:goat=true, minecraft:item_frame=false, create:carriage_contraption=false, minecraft:vex=true, minecraft:minecart=false, minecraft:item=false, minecraft:dragon_fireball=false, minecraft:cod=true, minecraft:skeleton=true, ad_astra:space_painting=false, create:seat=false, simple_mobs:staff_interact=false, minecraft:ravager=true, minecraft:squid=true, minecraft:skeleton_horse=true, minecraft:cow=true, minecraft:potion=false, ad_astra:lander=false, minecraft:salmon=true, minecraft:snow_golem=true, minecraft:shulker=true, friendsandfoes:ice_chunk=false, minecraft:hopper_minecart=false, the_bumblezone:honey_crystal_shard=false, simple_mobs:lightning_spear=false, minecraft:rabbit=true, minecraft:painting=false, minecraft:pillager=true, the_bumblezone:electric_ring_entity=false, minecraft:zoglin=true, minecraft:lightning_bolt=false, frostiful:frost_spell=false, minecraft:fishing_bobber=false, minecraft:tnt_minecart=false, simple_mobs:ground_spike=false, minecraft:command_block_minecart=false, minecraft:bat=false, the_bumblezone:dirt_pellet=false, minecraft:fireball=false, minecraft:llama_spit=false, minecraft:furnace_minecart=false, minecraft:evoker_fangs=false, minecraft:piglin=true, minecraft:snowball=false, minecraft:spectral_arrow=false, orcz:wither_strikeringcustom=false, simple_mobs:elemental_chain=false, minecraft:blaze=true, ad_astra:ice_spit=false, techreborn:nuke=false, minecraft:egg=false, minecraft:zombie_horse=true, minecraft:magma_cube=false, minecraft:small_fireball=false, frostiful:thrown_icicle=false, minecraft:spider=true, ad_astra:tier_1_rover=false, minecraft:marker=false, majruszsdifficulty:cursed_armor=false, minecraft:text_display=false, farmersdelight:rotten_tomato=false, minecraft:cat=true, armourers_workshop:mannequin=false, create:gantry_contraption=false, minecraft:tropical_fish=true, botania:corporea_spark=false, minecraft:ocelot=true, minecraft:wolf=true, minecraft:panda=true, minecraft:zombie_villager=true}
-2025-01-20 19:41:28,582 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.registerServerConfig(63)[m: [Config] Registering server configuration ...
-2025-01-20 19:41:28,584 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(79)[m: 🗣 Register Easy NPC Common Data Files ...
-2025-01-20 19:41:28,592 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.registerCommonDataFiles(44)[m: 🗣 Register Easy NPC Common data folders ...
-2025-01-20 19:41:28,595 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(82)[m: 🗣 Register Easy NPC Entity Data Serializers ...
-2025-01-20 19:41:29,104 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer ActionEventSet with id 19
-2025-01-20 19:41:29,107 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer CustomAttributes with id 20
-2025-01-20 19:41:29,108 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer DialogDataSet with id 21
-2025-01-20 19:41:29,110 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer DisplayAttributeSet with id 22
-2025-01-20 19:41:29,111 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer EntityAttributes with id 23
-2025-01-20 19:41:29,113 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer MerchantOffers with id 24
-2025-01-20 19:41:29,120 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer ModelPose with id 25
-2025-01-20 19:41:29,121 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer ObjectiveDataSet with id 26
-2025-01-20 19:41:29,123 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer CustomPosition with id 27
-2025-01-20 19:41:29,124 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer Profession with id 28
-2025-01-20 19:41:29,124 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer RenderDataSet with id 29
-2025-01-20 19:41:29,125 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer CustomRotation with id 30
-2025-01-20 19:41:29,128 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer CustomScale with id 31
-2025-01-20 19:41:29,131 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer SkinDataEntry with id 32
-2025-01-20 19:41:29,133 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer SoundDataSet with id 33
-2025-01-20 19:41:29,134 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer HashSet:UUID with id 34
-2025-01-20 19:41:29,136 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer HashSet:String with id 35
-2025-01-20 19:41:29,141 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer TradingDataSet with id 36
-2025-01-20 19:41:29,143 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.register(461)[m: Registered entity data serializer UUID with id 37
-2025-01-20 19:41:29,145 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(85)[m: 🗣 Register Easy NPC Compatibility Handler ...
-2025-01-20 19:41:29,156 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.registerCompatHandler(35)[m: 🗣 Register Easy NPC Compat Handler ...
-2025-01-20 19:41:29,168 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.logFoundMod(42)[m: [Compat Manager] Epic Fight mod with id 'epicfight' loaded: false
-2025-01-20 19:41:29,171 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(88)[m: 🗣 Register Easy NPC Event Bus Handler ...
-2025-01-20 19:41:29,183 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(91)[m: 🗣 Register Easy NPC Entity Types ...
-2025-01-20 19:41:29,252 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(94)[m: 🗣 Register Easy NPC Blocks ...
-2025-01-20 19:41:29,260 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(97)[m: 🗣 Register Easy NPC Blocks Entities ...
-2025-01-20 19:41:29,268 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(100)[m: 🗣 Register Easy NPC Items ...
-2025-01-20 19:41:29,287 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(103)[m: 🗣 Register Easy NPC Menu Types ...
-2025-01-20 19:41:29,338 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(106)[m: 🗣 Register Easy NPC Menu Handler ...
-2025-01-20 19:41:29,352 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(110)[m: 🗣 Register Easy NPC Network Handler ...
-2025-01-20 19:41:29,359 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.<init>(27)[m: Registering server network handler for Server -> Client messages.
-2025-01-20 19:41:29,363 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.registerClientHandler(45)[m: 🗣 Register Easy NPC Client Network Message Handler ...
-2025-01-20 19:41:29,583 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id architectury:sync_ids
-2025-01-20 19:41:29,619 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftblibrary:edit_nbt_response
-2025-01-20 19:41:29,718 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
-2025-01-20 19:41:29,726 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id itemfilters:main/8f6a899247753217b9d86ab427a2b279
-2025-01-20 19:41:30,063 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbteams:open_gui
-2025-01-20 19:41:30,072 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbteams:update_settings
-2025-01-20 19:41:30,081 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbteams:send_message
-2025-01-20 19:41:30,090 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbteams:create_party
-2025-01-20 19:41:30,101 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbteams:player_gui_operation
-2025-01-20 19:41:30,239 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(143)[m: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
-2025-01-20 19:41:30,240 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.21 Initialized
-2025-01-20 19:41:30,309 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:submit_task
-2025-01-20 19:41:30,314 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:claim_reward
-2025-01-20 19:41:30,321 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:get_emergency_items
-2025-01-20 19:41:30,326 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:claim_all_rewards
-2025-01-20 19:41:30,330 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:claim_choice_reward
-2025-01-20 19:41:30,343 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:toggle_pinned
-2025-01-20 19:41:30,353 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
-2025-01-20 19:41:30,361 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:toggle_editing_mode
-2025-01-20 19:41:30,365 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:force_save
-2025-01-20 19:41:30,374 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:set_custom_image
-2025-01-20 19:41:30,415 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:task_screen_config_resp
-2025-01-20 19:41:30,426 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:change_progress
-2025-01-20 19:41:30,434 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:create_object
-2025-01-20 19:41:30,436 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:create_task_at
-2025-01-20 19:41:30,447 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:delete_object
-2025-01-20 19:41:30,453 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:edit_object
-2025-01-20 19:41:30,457 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:move_chapter
-2025-01-20 19:41:30,463 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:move_quest
-2025-01-20 19:41:30,473 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:change_chapter_group
-2025-01-20 19:41:30,477 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:move_chapter_group
-2025-01-20 19:41:30,487 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:copy_quest
-2025-01-20 19:41:30,492 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id ftbquests:copy_chapter_image
-2025-01-20 19:41:31,171 [32mINFO [m [m[modloading-worker-0][m [mc.t.r.AbstractRegistrate.registerEventListeners(239)[m: Detected new forge version, registering events reflectively.
-2025-01-20 19:41:32,278 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
-2025-01-20 19:41:46,169 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-2025-01-20 19:41:46,176 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-2025-01-20 19:41:46,840 [1;31mERROR[m [m[main][m [mn.m.Util.m_143785_(408)[m: Adding duplicate key 'ResourceKey[minecraft:recipe_type / iceandfire:dragonforge]' to registry
-2025-01-20 19:41:46,840 [1;31mERROR[m [m[main][m [mn.m.Util.m_143785_(408)[m: Adding duplicate value 'iceandfire:dragonforge' to registry
-2025-01-20 19:41:46,946 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedAttackData(44)[m: - Registering Synched Attack Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,946 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
-2025-01-20 19:41:46,946 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedAttributeData(38)[m: - Registering Synched Attribute Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,947 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-2025-01-20 19:41:46,947 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedCustomAttributeData(37)[m: - Registering Synched Custom Attribute Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,947 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.CustomAttributeData
-2025-01-20 19:41:46,947 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedDisplayAttributeData(38)[m: - Registering Synched Display Attribute Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,948 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.DisplayAttributeData
-2025-01-20 19:41:46,948 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedNavigationData(50)[m: - Registering Synched Navigation Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,948 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
-2025-01-20 19:41:46,948 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedOwnerData(44)[m: - Registering Synched Owner Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,972 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
-2025-01-20 19:41:46,973 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedProfessionData(42)[m: - Registering Synched Profession Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,974 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
-2025-01-20 19:41:46,975 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedRenderData(39)[m: - Registering Synched Render Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,975 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
-2025-01-20 19:41:46,975 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedSkinData(47)[m: - Registering Synched Skin Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,976 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
-2025-01-20 19:41:46,976 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedSoundData(46)[m: - Registering Synched Sound Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,976 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
-2025-01-20 19:41:46,976 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedTradingData(57)[m: - Registering Synched Trading Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,981 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-2025-01-20 19:41:46,981 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-2025-01-20 19:41:46,982 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-2025-01-20 19:41:46,984 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedVariantData(41)[m: - Registering Synched Variant Data for EasyNPCBaseEntity.
-2025-01-20 19:41:46,984 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
-2025-01-20 19:41:46,985 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedModelData(54)[m: - Registering Synched Model Data for EasyNPCBaseModelEntity.
-2025-01-20 19:41:46,985 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,988 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,988 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,988 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,989 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,989 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,993 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,993 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,993 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,994 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-2025-01-20 19:41:46,994 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedModelPositionData(41)[m: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
-2025-01-20 19:41:46,994 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-2025-01-20 19:41:46,995 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-2025-01-20 19:41:46,995 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-2025-01-20 19:41:46,996 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-2025-01-20 19:41:46,999 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-2025-01-20 19:41:47,000 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-2025-01-20 19:41:47,001 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-2025-01-20 19:41:47,002 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedModelRotationData(43)[m: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
-2025-01-20 19:41:47,004 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,006 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,007 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,011 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,012 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,013 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,013 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,017 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,017 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-2025-01-20 19:41:47,023 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedModelVisibilityData(40)[m: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
-2025-01-20 19:41:47,023 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,024 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,024 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,024 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,025 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,025 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,025 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,025 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,026 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,026 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,026 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-2025-01-20 19:41:47,026 [32mINFO [m [m[main][m [mEasy NPC.registerSyncedScaleData(45)[m: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
-2025-01-20 19:41:47,027 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
-2025-01-20 19:41:47,027 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
-2025-01-20 19:41:47,236 [33mWARN [m [m[main][m [mn.m.n.s.SynchedEntityData.m_135353_(46)[m: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
-2025-01-20 19:41:47,785 [32mINFO [m [m[modloading-worker-0][m [mEasy NPC.registerArgumentTypes(38)[m: 🗣 Register Easy NPC Argument Types ...
-2025-01-20 19:41:48,265 [32mINFO [m [m[main][m [mEasy NPC.<init>(58)[m: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@652aac4c with version 23
-2025-01-20 19:41:48,286 [32mINFO [m [m[main][m [mEasy NPC.registerHandler(89)[m: 🗣 Register Easy NPC Network Handler ...
-2025-01-20 19:41:48,287 [32mINFO [m [m[main][m [mEasy NPC.registerNetworkMessages(98)[m: Registering network messages for BOTH side ...
-2025-01-20 19:41:48,300 [32mINFO [m [m[main][m [mEasy NPC.logRegisterClientNetworkMessageHandler(260)[m: [NetworkHandler] Registering client network message ExportClientPresetMessage with easy_npc:preset_export_client (0)
-2025-01-20 19:41:48,310 [32mINFO [m [m[main][m [mEasy NPC.logRegisterClientNetworkMessageHandler(260)[m: [NetworkHandler] Registering client network message OpenMenuCallbackMessage with easy_npc:open_menu_callback_message (1)
-2025-01-20 19:41:48,315 [32mINFO [m [m[main][m [mEasy NPC.logRegisterClientNetworkMessageHandler(260)[m: [NetworkHandler] Registering client network message SyncDataMessage with easy_npc:sync_data (2)
-2025-01-20 19:41:48,323 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message AddOrUpdateObjectiveMessage with easy_npc:add_objective (3)
-2025-01-20 19:41:48,331 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeActionEventMessage with easy_npc:change_action_event (4)
-2025-01-20 19:41:48,360 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeAdvancedTradingMessage with easy_npc:change_advanced_trading (5)
-2025-01-20 19:41:48,378 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeBasicTradingMessage with easy_npc:change_basic_trading (6)
-2025-01-20 19:41:48,386 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeCombatAttributeMessage with easy_npc:change_combat_attribute (7)
-2025-01-20 19:41:48,408 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeDisplayAttributeMessage with easy_npc:change_display_attribute (8)
-2025-01-20 19:41:48,410 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeEntityAttributeMessage with easy_npc:change_entity_attribute (9)
-2025-01-20 19:41:48,411 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeEntityBaseAttributeMessage with easy_npc:change_entity_base_attribute (10)
-2025-01-20 19:41:48,413 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeEnvironmentalAttributeMessage with easy_npc:change_environmental_attribute (11)
-2025-01-20 19:41:48,415 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeInteractionAttributeMessage with easy_npc:change_interaction_attribute (12)
-2025-01-20 19:41:48,420 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeModelEquipmentVisibilityMessage with easy_npc:change_model_equipment_visibility (13)
-2025-01-20 19:41:48,423 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeModelLockRotationMessage with easy_npc:change_model_lock_rotation (14)
-2025-01-20 19:41:48,426 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeModelPoseMessage with easy_npc:change_model_pose (15)
-2025-01-20 19:41:48,449 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeModelPositionMessage with easy_npc:change_model_position (16)
-2025-01-20 19:41:48,451 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeModelRotationMessage with easy_npc:change_model_rotation (17)
-2025-01-20 19:41:48,452 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeModelVisibilityMessage with easy_npc:change_model_visibility (18)
-2025-01-20 19:41:48,453 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeMovementAttributeMessage with easy_npc:change_movement_attribute (19)
-2025-01-20 19:41:48,458 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeNameMessage with easy_npc:change_name (20)
-2025-01-20 19:41:48,464 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangePoseMessage with easy_npc:change_pose (21)
-2025-01-20 19:41:48,466 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangePositionMessage with easy_npc:change_position (22)
-2025-01-20 19:41:48,467 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeProfessionMessage with easy_npc:change_profession (23)
-2025-01-20 19:41:48,470 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeRendererMessage with easy_npc:change_renderer (24)
-2025-01-20 19:41:48,476 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeScaleMessage with easy_npc:change_scale (25)
-2025-01-20 19:41:48,487 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeSkinMessage with easy_npc:change_skin (26)
-2025-01-20 19:41:48,492 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeSpawnerSettingMessage with easy_npc:change_spawner_settings (27)
-2025-01-20 19:41:48,497 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ChangeTradingTypeMessage with easy_npc:change_trading_type (28)
-2025-01-20 19:41:48,502 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ExecuteActionEventMessage with easy_npc:trigger_action_event (29)
-2025-01-20 19:41:48,503 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ExecuteDialogButtonActionMessage with easy_npc:dialog_button_action (30)
-2025-01-20 19:41:48,509 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ExportPresetMessage with easy_npc:export_preset (31)
-2025-01-20 19:41:48,510 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ExportWorldPresetMessage with easy_npc:export_world_preset (32)
-2025-01-20 19:41:48,516 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message ImportPresetMessage with easy_npc:import_preset (33)
-2025-01-20 19:41:48,530 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message OpenActionDataEditorMessage with easy_npc:open_action_data_editor (34)
-2025-01-20 19:41:48,531 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message OpenActionDataEntryEditorMessage with easy_npc:open_action_data_entry_editor (35)
-2025-01-20 19:41:48,534 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message OpenConfigurationMessage with easy_npc:open_configuration_screen (36)
-2025-01-20 19:41:48,535 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message OpenDialogButtonEditorMessage with easy_npc:open_dialog_button_editor (37)
-2025-01-20 19:41:48,544 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message OpenDialogEditorMessage with easy_npc:open_dialog_editor (38)
-2025-01-20 19:41:48,545 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message OpenMenuMessage with easy_npc:open_menu_message (39)
-2025-01-20 19:41:48,549 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message OpenDialogTextEditorMessage with easy_npc:open_dialog_text_editor (40)
-2025-01-20 19:41:48,552 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message RemoveDialogButtonMessage with easy_npc:remove_dialog_button (41)
-2025-01-20 19:41:48,558 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message RemoveDialogMessage with easy_npc:remove_dialog (42)
-2025-01-20 19:41:48,570 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message RemoveNPCMessage with easy_npc:remove_npc (43)
-2025-01-20 19:41:48,574 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message RemoveObjectiveMessage with easy_npc:remove_objective (44)
-2025-01-20 19:41:48,575 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message RequestDataSyncMessage with easy_npc:request_data_sync (45)
-2025-01-20 19:41:48,576 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message RespawnNPCMessage with easy_npc:respawn_npc (46)
-2025-01-20 19:41:48,581 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message SaveDialogButtonMessage with easy_npc:save_dialog_button (47)
-2025-01-20 19:41:48,583 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message SaveDialogMessage with easy_npc:save_dialog (48)
-2025-01-20 19:41:48,586 [32mINFO [m [m[main][m [mEasy NPC.logRegisterServerNetworkMessageHandler(279)[m: [NetworkHandler] Registering server network message SaveDialogSetMessage with easy_npc:save_dialog_set (49)
-2025-01-20 19:41:59,316 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-2025-01-20 19:42:04,463 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MC/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2379!/assets/.mcassetsroot' uses unexpected schema
-2025-01-20 19:42:04,464 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MC/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2379!/data/.mcassetsroot' uses unexpected schema
-2025-01-20 19:42:10,740 [32mINFO [m [m[main][m [mEasy NPC.registerCommands(52)[m: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
-2025-01-20 19:42:11,027 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-2025-01-20 19:42:11,029 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-2025-01-20 19:42:11,032 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-2025-01-20 19:42:11,035 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-2025-01-20 19:42:11,037 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-2025-01-20 19:42:11,041 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [ftbteams, info, server_id] and [ftbteams, info, team] with inputs: [server_id]
-2025-01-20 19:42:11,053 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-2025-01-20 19:42:11,060 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-2025-01-20 19:42:11,062 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-2025-01-20 19:42:11,074 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-2025-01-20 19:42:11,083 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [deathhistory, player] and [deathhistory, player_uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
-2025-01-20 19:42:26,722 [32mINFO [m [m[Worker-Main-2][m [mn.m.w.i.c.RecipeManager.m_5787_(85)[m: Loaded 23 recipes
-2025-01-20 19:42:35,950 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(150)[m: Starting minecraft server version 1.18.2
-2025-01-20 19:42:35,951 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(155)[m: Loading properties
-2025-01-20 19:42:35,952 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(172)[m: Default game type: SURVIVAL
-2025-01-20 19:42:35,952 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1286)[m: Generating keypair
-2025-01-20 19:42:36,587 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(183)[m: Starting Minecraft server on *:25565
-2025-01-20 19:42:36,704 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(79)[m: Using epoll channel type
-2025-01-20 19:42:37,013 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(195)[m: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-2025-01-20 19:42:37,014 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(196)[m: The server will make no attempt to authenticate usernames. Beware.
-2025-01-20 19:42:37,015 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(197)[m: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-2025-01-20 19:42:37,015 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(198)[m: To change this, set "online-mode" to "true" in the server.properties file.
-2025-01-20 19:42:37,583 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.18.2-184 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.2.21)
-2025-01-20 19:42:43,212 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: Couldn't load server icon
-java.lang.IllegalArgumentException: Must be 64 pixels wide
-	at org.apache.commons.lang3.Validate.isTrue(Validate.java:158) ~[commons-lang3-3.12.0.jar%2310!/:3.12.0]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadServerIcon0(CraftServer.java:1987) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadServerIcon0(CraftServer.java:1975) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadIcon(CraftServer.java:886) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.<init>(CraftServer.java:329) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:152) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:208) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:828) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:287) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-2025-01-20 19:42:43,327 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
-2025-01-20 19:42:43,368 [32mINFO [m [m[Server thread][m [m.playerSample(274)[m: Server Ping Player Sample Count: 12
-2025-01-20 19:42:43,392 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
-2025-01-20 19:42:51,241 [32mINFO [m [m[Server thread][m [mc.m.MohistMC.createLoader(36)[m: [PvPManager] Loading 2 libraries... please wait
-2025-01-20 19:42:51,547 [32mINFO [m [m[Server thread][m [mc.m.MohistMC.createLoader(69)[m: [PvPManager] Loading 0 extra libraries... please wait
-2025-01-20 19:42:51,549 [32mINFO [m [m[Server thread][m [mc.m.MohistMC.createLoader(79)[m: [PvPManager] Found libraries libraries/plugins-lib/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-2025-01-20 19:42:51,549 [32mINFO [m [m[Server thread][m [mc.m.MohistMC.createLoader(79)[m: [PvPManager] Found libraries libraries/plugins-lib/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
-2025-01-20 19:42:51,550 [32mINFO [m [m[Server thread][m [mc.m.MohistMC.createLoader(103)[m: [PvPManager] Loaded libraries libraries/plugins-lib/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-2025-01-20 19:42:51,551 [32mINFO [m [m[Server thread][m [mc.m.MohistMC.createLoader(103)[m: [PvPManager] Loaded libraries libraries/plugins-lib/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
-2025-01-20 19:42:51,832 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] Loading Vault v1.7.3-b131
-2025-01-20 19:42:51,845 [32mINFO [m [m[Server thread][m [mo.s.b.Bloodmoon.publish(36)[m: [BloodMoon] Loading BloodMoon v0.8.1
-2025-01-20 19:42:51,845 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading LoginSecurity v3.3.0
-2025-01-20 19:42:51,846 [32mINFO [m [m[Server thread][m [mc.h.f.R.ReviveMe.publish(36)[m: [ReviveMe] Loading ReviveMe v0.4.4
-2025-01-20 19:42:51,846 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-2025-01-20 19:42:51,846 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading SternalBoard v2.3.0
-2025-01-20 19:42:51,889 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Loading PlayerTimeLimit v1.6.1
-2025-01-20 19:42:51,890 [32mINFO [m [m[Server thread][m [mc.a.ConditionalEvents.publish(36)[m: [ConditionalEvents] Loading ConditionalEvents v4.59.1
-2025-01-20 19:42:51,890 [32mINFO [m [m[Server thread][m [mc.e.e.Essentials.publish(36)[m: [Essentials] Loading Essentials v2.21.0-dev+151-f2af952
-2025-01-20 19:42:51,984 [32mINFO [m [m[Server thread][m [mn.s.s.StaffPlus.publish(36)[m: [StaffPlus] Loading StaffPlus v3.3.14.2
-2025-01-20 19:42:52,079 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Successfully registered internal expansion: staffplus [3.3.14.2]
-2025-01-20 19:42:52,095 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Hooked into PlaceholderAPI 2.11.6
-2025-01-20 19:42:52,096 [32mINFO [m [m[Server thread][m [mm.N.P.PvPManager.publish(36)[m: [PvPManager] Loading PvPManager v3.18.36
-2025-01-20 19:42:52,237 [32mINFO [m [m[Server thread][m [mb.b.b.BetterSleeping.publish(36)[m: [BetterSleeping4] Loading BetterSleeping4 v4.0.2
-2025-01-20 19:42:52,250 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] Enabling Vault v1.7.3-b131
-2025-01-20 19:42:56,788 [33mWARN [m [m[Server thread][m [mn.m.v.Vault.publish(34)[m: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+151-f2af952 which is not a depend or softdepend of this plugin.
-2025-01-20 19:42:56,814 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] [Economy] Essentials Economy found: Waiting
-2025-01-20 19:43:05,753 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-2025-01-20 19:43:10,204 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] Enabled Version 1.7.3-b131
-2025-01-20 19:43:10,459 [32mINFO [m [m[Server thread][m [mFTB Teams.load(192)[m: loaded team data: 1 known players, 1 teams total
-2025-01-20 19:43:10,731 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(224)[m: Preparing level "world"
-2025-01-20 19:43:23,546 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:overworld
-2025-01-20 19:43:26,241 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:26,262 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:26,277 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:26,300 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:26,337 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:26,357 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:27,201 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:27,223 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:27,861 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:28,057 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:28,558 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:29,052 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:29,550 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:30,048 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,190 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,195 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,200 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,205 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,209 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,214 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,214 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,215 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,229 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,230 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,231 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,253 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:36,549 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:37,048 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:37,550 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:38,048 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
-2025-01-20 19:43:38,548 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
-2025-01-20 19:43:39,048 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
-2025-01-20 19:43:39,551 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
-2025-01-20 19:43:40,056 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
-2025-01-20 19:43:40,565 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
-2025-01-20 19:43:41,119 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 13%
-2025-01-20 19:43:41,549 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 20%
-2025-01-20 19:43:42,053 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
-2025-01-20 19:43:42,731 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
-2025-01-20 19:43:43,507 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 24%
-2025-01-20 19:43:43,565 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 25%
-2025-01-20 19:43:44,123 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 26%
-2025-01-20 19:43:44,548 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 29%
-2025-01-20 19:43:45,049 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 34%
-2025-01-20 19:43:45,547 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 52%
-2025-01-20 19:43:46,054 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 63%
-2025-01-20 19:43:46,548 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 75%
-2025-01-20 19:43:47,058 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 80%
-2025-01-20 19:43:47,561 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 81%
-2025-01-20 19:43:48,080 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 24534 ms
-2025-01-20 19:43:48,217 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_end
-2025-01-20 19:43:49,538 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:49,543 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:49,549 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:50,057 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:50,221 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:50,721 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:51,219 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:51,721 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
-2025-01-20 19:43:52,219 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
-2025-01-20 19:43:52,719 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 14%
-2025-01-20 19:43:53,236 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 20%
-2025-01-20 19:43:53,720 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 45%
-2025-01-20 19:43:54,248 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 53%
-2025-01-20 19:43:54,719 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 77%
-2025-01-20 19:43:55,349 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 7131 ms
-2025-01-20 19:43:55,351 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_nether
-2025-01-20 19:43:57,867 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:57,873 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:57,880 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:57,887 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:57,911 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:57,915 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:58,361 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:58,855 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:59,353 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-20 19:43:59,957 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
-2025-01-20 19:44:00,353 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 7%
-2025-01-20 19:44:00,857 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 16%
-2025-01-20 19:44:01,355 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 37%
-2025-01-20 19:44:01,854 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 55%
-2025-01-20 19:44:02,354 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 80%
-2025-01-20 19:44:02,764 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 7412 ms
-2025-01-20 19:44:02,774 [32mINFO [m [m[Server thread][m [mo.s.b.Bloodmoon.publish(36)[m: [BloodMoon] Enabling BloodMoon v0.8.1
-2025-01-20 19:44:03,469 [32mINFO [m [m[Server thread][m [mo.s.b.Bloodmoon.publish(36)[m: [BloodMoon] This plugin is still in its infancy. If you encounter a bug, please report it to https://www.spigotmc.org/threads/bloodmoon.412741/
-2025-01-20 19:44:03,471 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Enabling LoginSecurity v3.3.0
-2025-01-20 19:44:03,632 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading base translations from "en_us"
-2025-01-20 19:44:03,635 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading specified translations from "en_us"
-2025-01-20 19:44:03,744 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Registering commands...
-2025-01-20 19:44:03,793 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Registering listeners...
-2025-01-20 19:44:04,017 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Using 1.12+ map captcha renderer
-2025-01-20 19:44:04,021 [32mINFO [m [m[Server thread][m [mc.h.f.R.ReviveMe.publish(36)[m: [ReviveMe] Enabling ReviveMe v0.4.4
-2025-01-20 19:44:04,122 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §aReviveMe enable
-2025-01-20 19:44:04,309 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-2025-01-20 19:44:06,930 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Fetching available expansion information...
-2025-01-20 19:44:06,964 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Enabling SternalBoard v2.3.0
-2025-01-20 19:44:07,141 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-serializer-legacy
-2025-01-20 19:44:07,150 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-serializer-plain
-2025-01-20 19:44:07,150 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-serializer-json
-2025-01-20 19:44:07,151 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-serializer-ansi
-2025-01-20 19:44:07,151 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-serializer-gson
-2025-01-20 19:44:07,152 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-nbt
-2025-01-20 19:44:07,157 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-serializer-json-legacy-impl
-2025-01-20 19:44:07,158 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-serializer-gson-legacy-impl
-2025-01-20 19:44:07,158 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-text-minimessage
-2025-01-20 19:44:07,159 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-api
-2025-01-20 19:44:07,161 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library examination-api
-2025-01-20 19:44:07,162 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-platform-api
-2025-01-20 19:44:07,163 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-platform-bukkit
-2025-01-20 19:44:07,164 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-platform-facet
-2025-01-20 19:44:07,166 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Loading library adventure-key
-2025-01-20 19:44:07,349 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Enabling PlayerTimeLimit v1.6.1
-2025-01-20 19:44:07,491 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Successfully registered internal expansion: playertimelimit [1.6.1]
-2025-01-20 19:44:07,493 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §8[§bPlayerTime§cLimit§8] §eHas been enabled! §fVersion: 1.6.1
-2025-01-20 19:44:07,494 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §8[§bPlayerTime§cLimit§8] §eThanks for using my plugin!  §f~Ajneb97
-2025-01-20 19:44:07,783 [32mINFO [m [m[Server thread][m [mc.a.ConditionalEvents.publish(36)[m: [ConditionalEvents] Enabling ConditionalEvents v4.59.1
-2025-01-20 19:44:08,290 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Successfully registered internal expansion: conditionalevents [4.59.1]
-2025-01-20 19:44:08,337 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §4[§bConditionalEvents§4] §eHas been enabled! §fVersion: 4.59.1
-2025-01-20 19:44:08,337 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §4[§bConditionalEvents§4] §eThanks for using my plugin!   §f~Ajneb97
-2025-01-20 19:44:08,361 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §cThere is a new version available. §e(§74.60.1§e)
-2025-01-20 19:44:08,363 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §cYou can download it at: §fhttps://modrinth.com/plugin/conditionalevents
-2025-01-20 19:44:08,387 [32mINFO [m [m[Server thread][m [mc.e.e.Essentials.publish(36)[m: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-2025-01-20 19:44:11,521 [1;31mERROR[m [m[Server thread][m [mEssentials.publish(32)[m: You are running a server that does not properly support Bukkit plugins. Bukkit plugins should not be used with Forge/Fabric mods! For Forge: Consider using ForgeEssentials, or SpongeForge + Nucleus.
-2025-01-20 19:44:11,548 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Status determining class: brand:Mohist
-2025-01-20 19:44:12,242 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Attempting to convert old kits in config.yml to new kits.yml
-2025-01-20 19:44:12,244 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: No kits found to migrate.
-2025-01-20 19:44:13,117 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Loaded 43465 items from items.json.
-2025-01-20 19:44:13,156 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Using locale en
-2025-01-20 19:44:13,526 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: ServerListPingEvent: Spigot iterator API
-2025-01-20 19:44:14,974 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Starting Metrics. Opt-out using the global bStats config.
-2025-01-20 19:44:14,978 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] [Economy] Essentials Economy hooked.
-2025-01-20 19:44:15,104 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Using superperms-based permissions.
-2025-01-20 19:44:15,109 [32mINFO [m [m[Server thread][m [mn.s.s.StaffPlus.publish(36)[m: [StaffPlus] Enabling StaffPlus v3.3.14.2
-2025-01-20 19:44:15,783 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §2[Staff+] §aVersion protocol set to 'v1_18_R2'.
-2025-01-20 19:44:16,670 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §2[Staff+] §aStaff+ has been enabled! Initialization took 1220ms.
-2025-01-20 19:44:16,673 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §2[Staff+] §aPlugin created by Shortninja continued by Qball.
-2025-01-20 19:44:16,886 [32mINFO [m [m[Server thread][m [mm.N.P.PvPManager.publish(36)[m: [PvPManager] Enabling PvPManager v3.18.36
-2025-01-20 19:44:17,150 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §c[§8PvPManager§c] §aUsing player nametags: §btrue
-2025-01-20 19:44:17,551 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Error occurred while enabling PvPManager v3.18.36 (Is it up to date?)
-java.lang.NoClassDefFoundError: com/zaxxer/hikari/HikariConfig
-	at me.chancesd.pvpmanager.storage.Database.<init>(Database.java:45) ~[?:?]
-	at me.chancesd.pvpmanager.storage.DatabaseFactory.getDatabase(DatabaseFactory.java:34) ~[?:?]
-	at me.chancesd.pvpmanager.storage.SQLStorage.setupDatabase(SQLStorage.java:46) ~[?:?]
-	at me.chancesd.pvpmanager.storage.SQLStorage.<init>(SQLStorage.java:42) ~[?:?]
-	at me.chancesd.pvpmanager.storage.SQLStorage.<init>(SQLStorage.java:29) ~[?:?]
-	at me.chancesd.pvpmanager.managers.StorageManager.<init>(StorageManager.java:44) ~[?:?]
-	at me.NoChance.PvPManager.PvPManager.onEnable(PvPManager.java:67) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:473) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:399) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:478) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:368) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:225) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:828) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:287) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-Caused by: java.lang.ClassNotFoundException: com.zaxxer.hikari.HikariConfig
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:150) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:109) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	... 18 more
-2025-01-20 19:44:17,557 [32mINFO [m [m[Server thread][m [mm.N.P.PvPManager.publish(36)[m: [PvPManager] Disabling PvPManager v3.18.36
-2025-01-20 19:44:17,608 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Error occurred while disabling PvPManager v3.18.36 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "me.NoChance.PvPManager.Managers.PlayerHandler.handlePluginDisable()" because "this.playerHandler" is null
-	at me.NoChance.PvPManager.PvPManager.onDisable(PvPManager.java:82) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:364) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:500) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:339) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:473) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:399) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:7e29f765-296df566-9fb885e8]
-	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:478) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:368) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:225) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:828) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:287) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-2025-01-20 19:44:17,626 [32mINFO [m [m[Server thread][m [mb.b.b.BetterSleeping.publish(36)[m: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
-2025-01-20 19:44:20,331 [32mINFO [m [m[PvPManager Worker Thread - 0][m [mm.N.P.PvPManager.publish(36)[m: [PvPManager] Checking for updates...
-2025-01-20 19:44:20,333 [1;31mERROR[m [m[PvPManager Worker Thread - 0][m [mm.N.P.PvPManager.publish(32)[m: [PvPManager] zip file closed
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:839) ~[?:?]
-	at java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
-	at java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
-	at java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:167) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:155) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:114) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:109) ~[forge-1.18.2-40.2.21-universal.jar%2384!/:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at me.chancesd.pvpmanager.managers.UpdateManager.checkForUpdates(UpdateManager.java:37) ~[PvPManager.jar:?]
-	at me.chancesd.pvpmanager.utils.ScheduleUtils$ExceptionRunnable.run(ScheduleUtils.java:170) [PvPManager.jar:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-2025-01-20 19:44:21,001 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Successfully registered internal expansion: bettersleeping [4.0.2]
-2025-01-20 19:44:21,176 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
-2025-01-20 19:44:21,375 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Placeholder expansion registration initializing...
-2025-01-20 19:44:21,400 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(228)[m: Done (71.188s)! For help, type "help"
-2025-01-20 19:44:21,567 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
-2025-01-20 19:44:21,570 [32mINFO [m [m[Server thread][m [mEasy NPC.handleServerStarting(40)[m: 🗣 Register Easy NPC Server is starting Events ...
-2025-01-20 19:44:21,577 [32mINFO [m [m[Server thread][m [mEasy NPC.registerServerDataFiles(50)[m: 🗣 Register Easy NPC Server data folders ...
-2025-01-20 19:44:21,584 [32mINFO [m [m[Server thread][m [mEasy NPC.registerServerDataFiles(52)[m: 🗣 Register Easy NPC pose data folders ...
-2025-01-20 19:44:21,610 [32mINFO [m [m[Server thread][m [mEasy NPC.registerCustomPoseData(47)[m: 🗣 Register Easy NPC custom pose data ...
-2025-01-20 19:44:22,200 [33mWARN [m [m[Server thread][m [mEasy NPC.registerCustomPoseData(77)[m: Skin model pose file /workspaces/MC/servidor_minecraft/config/easy_npc/pose/humanoid_slim/humanoid_slim_poses.json already exists, skipping copy!
-2025-01-20 19:44:23,015 [32mINFO [m [m[Server thread][m [mEasy NPC.registerCustomPoseFiles(94)[m: 🗣 Register Easy NPC custom poses from /workspaces/MC/servidor_minecraft/config/easy_npc/pose ...
-2025-01-20 19:44:23,017 [32mINFO [m [m[Server thread][m [mEasy NPC.lambda$registerCustomPoseFiles$2(106)[m: Found custom pose file /workspaces/MC/servidor_minecraft/config/easy_npc/pose/humanoid_slim/humanoid_slim_poses.json ...
-2025-01-20 19:44:23,027 [32mINFO [m [m[Server thread][m [mEasy NPC.registerPoseData(113)[m: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/crouching with Animation{name='Crouching', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -4.2, 0.0], rotation=[-7.5, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -3.2, 0.0], rotation=[20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -3.2, 1.0], rotation=[40.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -3.2, 1.0], rotation=[40.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, 0.0, 4.0], rotation=[-25.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, 0.0, 3.0], rotation=[-10.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
-2025-01-20 19:44:23,041 [32mINFO [m [m[Server thread][m [mEasy NPC.registerPoseData(113)[m: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/standing with Animation{name='Standing', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
-2025-01-20 19:44:23,043 [32mINFO [m [m[Server thread][m [mEasy NPC.registerPoseData(113)[m: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/sitting with Animation{name='Sitting', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -10.5, 0.0], rotation=[0.0, 0.0, -2.5], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -10.5, 0.0], rotation=null, scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -10.5, 0.0], rotation=[-35.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -10.5, 0.0], rotation=[-35.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, 15.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, -10.5, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
-2025-01-20 19:44:23,043 [32mINFO [m [m[Server thread][m [mEasy NPC.registerPoseData(113)[m: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/chilling with Animation{name='Chilling', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -12.5, 2.0], rotation=[-2.5, 0.0, 2.5], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -12.25, 3.0], rotation=[-20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -12.5, 2.0], rotation=[17.5, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -12.5, 2.0], rotation=[20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, 15.0, -5.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, -10.0, 0.75], rotation=[-90.0, -10.5, 5.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
-2025-01-20 19:44:23,044 [32mINFO [m [m[Server thread][m [mEasy NPC.registerPoseData(113)[m: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/rest with Animation{name='Rest', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -12.0, 0.0], rotation=[5.0, 0.0, 5.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -12.0, 0.0], rotation=[0.0, 0.0, 2.5], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[-1.0, -11.0, 0.0], rotation=[-75.0, -30.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -12.0, 0.0], rotation=[-52.5, -5.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[-3.0, -2.0, -2.0], rotation=[-32.5, -20.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[6.75, -10.0, 0.0], rotation=[-90.0, 40.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
-2025-01-20 19:44:23,051 [32mINFO [m [m[Server thread][m [mFTB Quests.load(73)[m: Loading quests from /workspaces/MC/servidor_minecraft/config/ftbquests/quests
-2025-01-20 19:44:23,097 [32mINFO [m [m[Server thread][m [mFTB Quests.readDataFull(724)[m: Loaded 1 chapter groups, 1 chapters, 25 quests, 0 reward tables
-2025-01-20 19:44:23,106 [32mINFO [m [m[Server thread][m [mFTB Quests.load(82)[m: Loading quest progression data from /workspaces/MC/servidor_minecraft/config/ftbquests/quests
-2025-01-20 19:44:23,123 [32mINFO [m [m[Server thread][m [mc.g.a.i.IceAndFire.onServerStarted(166)[m: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=true, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, ICE_DRAGON_CAVE_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=false, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
-2025-01-20 19:44:23,123 [32mINFO [m [m[Server thread][m [mc.g.a.i.IceAndFire.onServerStarted(167)[m: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=false, TROLL_F=true}
-2025-01-20 19:44:23,141 [1;31mERROR[m [m[Server thread][m [mn.m.s.MinecraftServer.m_202468_(1022)[m: Couldn't load server icon
+[00:16:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:16:39] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:16:39] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:16:39] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:16:39] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:16:39] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:16:41] [Worker-Main-2/INFO]: Loaded 7 recipes
+[00:16:42] [Worker-Main-2/INFO]: Loaded 1141 advancements
+[00:16:47] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[00:16:47] [Server thread/INFO]: Loading properties
+[00:16:47] [Server thread/INFO]: Default game type: SURVIVAL
+[00:16:47] [Server thread/INFO]: Generating keypair
+[00:16:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:16:48] [Server thread/INFO]: Using epoll channel type
+[00:16:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:16:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:16:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:16:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:16:49] [Server thread/INFO]: Preparing level "world"
+[00:16:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:17:09] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[00:17:10] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[00:17:11] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[00:17:11] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[00:17:11] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[00:17:12] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[00:17:12] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[00:17:13] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[00:17:13] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[00:17:14] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[00:17:14] [Worker-Main-2/INFO]: Preparing spawn area: 20%
+[00:17:15] [Worker-Main-2/INFO]: Preparing spawn area: 31%
+[00:17:15] [Worker-Main-2/INFO]: Preparing spawn area: 37%
+[00:17:16] [Worker-Main-2/INFO]: Preparing spawn area: 41%
+[00:17:17] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[00:17:17] [Worker-Main-2/INFO]: Preparing spawn area: 61%
+[00:17:17] [Worker-Main-2/INFO]: Preparing spawn area: 79%
+[00:17:18] [Worker-Main-2/INFO]: Preparing spawn area: 89%
+[00:17:19] [Server thread/INFO]: Time elapsed: 20405 ms
+[00:17:19] [Server thread/INFO]: Done (30.364s)! For help, type "help"
+[00:17:21] [Server thread/ERROR]: Couldn't load server icon
 java.lang.IllegalStateException: Must be 64 pixels wide
-	at org.apache.commons.lang3.Validate.validState(Validate.java:816) ~[commons-lang3-3.12.0.jar%2310!/:3.12.0]
-	at net.minecraft.server.MinecraftServer.m_202468_(MinecraftServer.java:1015) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
+	at org.apache.commons.lang3.Validate.validState(Validate.java:816) ~[commons-lang3-3.12.0.jar:3.12.0]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:819) ~[server-1.18.2.jar:?]
 	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraft.server.MinecraftServer.m_129878_(MinecraftServer.java:1012) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:833) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
-	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:287) ~[server-1.18.2-20220404.173914-srg.jar%2379!/:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:816) ~[server-1.18.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:676) ~[server-1.18.2.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:273) ~[server-1.18.2.jar:?]
 	at java.lang.Thread.run(Thread.java:840) [?:?]
-2025-01-20 19:44:23,231 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-2025-01-20 19:44:23,254 [32mINFO [m [m[Craft Scheduler Thread - 1][m [mColouredConsoleSender.sendMessage(55)[m: §3[ReviveMe] §cThere is not a new update available.
-2025-01-20 19:44:23,292 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §60 placeholder hook(s) registered!
-2025-01-20 19:44:23,303 [32mINFO [m [m[Craft Scheduler Thread - 0][m [mn.m.v.Vault.publish(36)[m: [Vault] Checking for Updates ... 
-2025-01-20 19:44:23,345 [32mINFO [m [m[Craft Scheduler Thread - 2][m [mEssentials.publish(36)[m: §6Fetching version information...
-2025-01-20 19:44:23,492 [32mINFO [m [m[Craft Scheduler Thread - 0][m [mn.m.v.Vault.publish(36)[m: [Vault] No new version available
-2025-01-20 19:44:24,170 [32mINFO [m [m[Craft Scheduler Thread - 1][m [mn.s.s.StaffPlus.publish(36)[m: [StaffPlus] You are using the latest version thanks
-2025-01-20 19:44:24,639 [33mWARN [m [m[Craft Scheduler Thread - 2][m [mEssentials.publish(34)[m: §4You're §c4 §4EssentialsX dev build(s) out of date!
-2025-01-20 19:44:24,640 [33mWARN [m [m[Craft Scheduler Thread - 2][m [mEssentials.publish(34)[m: §4Download it here:§c https://essentialsx.net/downloads.html
-2025-01-20 19:44:38,388 [32mINFO [m [m[User Authenticator #1][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player SantRss is c027a776-05f7-3bcb-8c7e-f3ce05f002cd
-2025-01-20 19:44:40,925 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@70c7d946
-2025-01-20 19:44:42,816 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(338)[m: SantRss[/127.217.58.33:40825] logged in with entity id 210 at (-376.76804621341023, 66.0, -453.9811384590179)
-2025-01-20 19:45:30,799 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /spawner
-2025-01-20 19:45:34,493 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /spawner SantRss
-2025-01-20 19:45:42,790 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /spawner villager
-2025-01-20 19:45:53,299 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /spawner irongolem
-2025-01-20 19:46:06,892 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /kill
-2025-01-20 19:46:11,148 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /kill SantRss
-2025-01-20 19:46:11,162 [33mWARN [m [m[Server thread][m [m.<clinit>(256)[m: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-2025-01-20 19:46:19,764 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: Unknown scoreboard objective 'vidas'
-2025-01-20 19:46:19,794 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: SantRss died
-2025-01-20 19:46:19,842 [33mWARN [m [m[Server thread][m [mn.m.s.MinecraftServer.m_130011_(843)[m: Can't keep up! Is the server overloaded? Running 8668ms or 173 ticks behind
-2025-01-20 19:46:19,890 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /kill SantRss
-2025-01-20 19:46:19,907 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: Unknown scoreboard objective 'vidas'
-2025-01-20 19:46:19,909 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: SantRss died
-2025-01-20 19:46:48,612 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /scoreboard objectives add vidas
-2025-01-20 19:46:56,750 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /scoreboard objectives add vidas dummy
-2025-01-20 19:46:56,753 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: [SantRss: Created new objective [vidas]]
-2025-01-20 19:47:19,138 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /scoreboard players add SantRss vidas 2
-2025-01-20 19:47:19,139 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: [SantRss: Added 2 to [vidas] for SantRss (now 2)]
-2025-01-20 19:47:34,493 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /pl
-2025-01-20 19:47:44,757 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /sternalboard reload
-2025-01-20 19:47:50,147 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /sternalboard toggle
-2025-01-20 19:47:55,289 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: SantRss issued server command: /sternalboard toggle
-2025-01-20 19:48:33,783 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1554)[m: SantRss lost connection: Disconnected
-2025-01-20 19:48:34,019 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: SantRss left the game
-2025-01-20 19:51:36,212 [32mINFO [m [m[User Authenticator #2][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player SantRss is c027a776-05f7-3bcb-8c7e-f3ce05f002cd
-2025-01-20 19:51:38,704 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6a39f4ce
-2025-01-20 19:51:38,989 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(338)[m: SantRss[/127.217.58.33:54139] logged in with entity id 487 at (-399.4579314849897, 70.0, -388.81261921793873)
-2025-01-20 19:52:12,281 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1554)[m: SantRss lost connection: Disconnected
-2025-01-20 19:52:12,311 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: SantRss left the game
-2025-01-20 19:52:27,584 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: Stopping the server
-2025-01-20 19:52:27,624 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(737)[m: Stopping server
-2025-01-20 19:52:27,626 [32mINFO [m [m[Server thread][m [mb.b.b.BetterSleeping.publish(36)[m: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
-2025-01-20 19:52:27,628 [32mINFO [m [m[Server thread][m [mn.s.s.StaffPlus.publish(36)[m: [StaffPlus] Disabling StaffPlus v3.3.14.2
-2025-01-20 19:52:27,636 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §4[Staff+] §cStaff+ is now disabling!
-2025-01-20 19:52:27,694 [32mINFO [m [m[Server thread][m [mEssentials.publish(36)[m: Disabling Essentials v2.21.0-dev+151-f2af952
-2025-01-20 19:52:27,696 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] [Economy] Essentials Economy unhooked.
-2025-01-20 19:52:27,706 [32mINFO [m [m[Server thread][m [mc.a.ConditionalEvents.publish(36)[m: [ConditionalEvents] Disabling ConditionalEvents v4.59.1
-2025-01-20 19:52:27,707 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §4[§bConditionalEvents§4] §eHas been disabled! §fVersion: 4.59.1
-2025-01-20 19:52:27,709 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Disabling PlayerTimeLimit v1.6.1
-2025-01-20 19:52:27,714 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §8[§bPlayerTime§cLimit§8] §eHas been disabled! §fVersion: 1.6.1
-2025-01-20 19:52:27,715 [32mINFO [m [m[Server thread][m [mc.x.s.SternalBoardPlugin.publish(36)[m: [SternalBoard] Disabling SternalBoard v2.3.0
-2025-01-20 19:52:27,723 [32mINFO [m [m[Server thread][m [mm.c.p.PlaceholderAPIPlugin.publish(36)[m: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-2025-01-20 19:52:27,725 [32mINFO [m [m[Server thread][m [mc.h.f.R.ReviveMe.publish(36)[m: [ReviveMe] Disabling ReviveMe v0.4.4
-2025-01-20 19:52:27,726 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §4ReviveMe disable
-2025-01-20 19:52:27,727 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Disabling LoginSecurity v3.3.0
-2025-01-20 19:52:27,730 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Waiting for queued tasks...
-2025-01-20 19:52:27,731 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] ExecutorService shut down, ready to disable.
-2025-01-20 19:52:27,733 [32mINFO [m [m[Server thread][m [mo.s.b.Bloodmoon.publish(36)[m: [BloodMoon] Disabling BloodMoon v0.8.1
-2025-01-20 19:52:27,787 [32mINFO [m [m[Server thread][m [mn.m.v.Vault.publish(36)[m: [Vault] Disabling Vault v1.7.3-b131
-2025-01-20 19:52:27,789 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(749)[m: Saving players
-2025-01-20 19:52:27,890 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(755)[m: Saving worlds
-2025-01-20 19:52:37,295 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(673)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-2025-01-20 19:52:37,803 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(673)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-2025-01-20 19:52:37,810 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(673)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-2025-01-20 19:52:38,511 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(694)[m: ThreadedAnvilChunkStorage (world): All chunks are saved
-2025-01-20 19:52:38,512 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(694)[m: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-2025-01-20 19:52:38,512 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(694)[m: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-2025-01-20 19:52:38,513 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(697)[m: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:17:34] [Server thread/INFO]: SantRss29[/127.166.110.161:59787] logged in with entity id 28 at (-580.745903128917, 63.0, -689.8514232922606)
+[00:17:35] [Server thread/INFO]: SantRss29 joined the game
+[00:17:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[00:17:54] [Server thread/INFO]: [SantRss29: Set own game mode to Survival Mode]
+[00:18:01] [Server thread/INFO]: [SantRss29: Made SantRss29 no longer a server operator]
+[00:18:14] [Server thread/INFO]: Made SantRss29 a server operator
+[00:18:23] [Server thread/INFO]: [SantRss29: Gamerule keepInventory is now set to: true]
+[00:18:31] [Server thread/INFO]: [SantRss29: Made SantRss29 no longer a server operator]
+[00:21:46] [Server thread/INFO]: umpichechi[/127.29.139.103:42453] logged in with entity id 939 at (-416.5, 66.0, -392.5)
+[00:21:46] [Server thread/INFO]: umpichechi joined the game
+[00:22:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:22:10] [Server thread/INFO]:  Kill SantRss29<--[HERE]
+[00:22:20] [Server thread/INFO]: SantRss29 fell out of the world
+[00:22:20] [Server thread/INFO]: Killed SantRss29
+[00:22:30] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-418, y=67, z=-397}
+[00:22:31] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-416, y=68, z=-398}
+[00:22:33] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-414, y=68, z=-399}
+[00:22:33] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-414, y=68, z=-400}
+[00:22:34] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-416, y=68, z=-398}
+[00:22:34] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-414, y=67, z=-400}
+[00:22:34] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-416, y=68, z=-398}
+[00:22:34] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-415, y=67, z=-400}
+[00:22:34] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-416, y=68, z=-398}
+[00:22:34] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-415, y=67, z=-400}
+[00:22:36] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-415, y=68, z=-397}
+[00:22:36] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-416, y=68, z=-395}
+[00:23:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[00:23:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[00:23:15] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-414, y=69, z=-404}
+[00:23:28] [Server thread/WARN]: Skipping Entity with id iceandfire:hippocampus
+[00:24:17] [Server thread/INFO]: umpichechi has made the advancement [Stone Age]
+[00:24:56] [Server thread/INFO]: umpichechi has made the advancement [Getting an Upgrade]
+[00:25:30] [Server thread/INFO]: SantRss29 has made the advancement [Getting an Upgrade]
+[00:25:52] [Server thread/INFO]: umpichechi has made the advancement [Monster Hunter]
+[00:25:59] [Server thread/INFO]: SantRss29 has made the advancement [Monster Hunter]
