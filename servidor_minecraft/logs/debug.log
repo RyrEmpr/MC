@@ -1487,3 +1487,37 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [20May2025 21:56:16.071] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [20May2025 21:57:05.300] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by Zombie
 [20May2025 21:59:17.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
+[20May2025 22:01:16.060] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:01:16.065] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:02:58.140] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by umpichechi
+[20May2025 22:03:48.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi was doomed to fall by SantRss29
+[20May2025 22:04:50.001] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Hot Stuff]
+[20May2025 22:05:20.249] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Hot Stuff]
+[20May2025 22:05:29.752] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Suit Up]
+[20May2025 22:06:16.059] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:06:16.064] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:06:19.997] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[20May2025 22:06:19.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[20May2025 22:09:24.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Best Friends Forever]
+[20May2025 22:11:16.074] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:11:16.083] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:16:16.067] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:16:16.074] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:19:18.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Disconnected
+[20May2025 22:19:18.748] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game
+[20May2025 22:19:28.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20May2025 22:19:28.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20May2025 22:19:28.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20May2025 22:19:30.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20May2025 22:19:30.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20May2025 22:19:30.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20May2025 22:19:30.620] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:19:30.624] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:19:30.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20May2025 22:19:30.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20May2025 22:19:30.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20May2025 22:19:30.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20May2025 22:19:30.737] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./world/serverconfig
+[20May2025 22:19:30.737] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[20May2025 22:19:30.738] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file usefulbackpacks-server.toml changed, sending notifies
+[20May2025 22:19:30.738] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file usefulbackpacks-server.toml changed, sending notifies

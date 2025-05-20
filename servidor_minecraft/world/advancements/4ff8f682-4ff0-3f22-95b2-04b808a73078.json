@@ -601,9 +601,16 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-05-20 22:03:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga": "2025-05-20 02:43:08 +0000"
+      "minecraft:taiga": "2025-05-20 02:43:08 +0000",
+      "minecraft:forest": "2025-05-20 22:03:48 +0000"
     },
     "done": false
   },
@@ -652,6 +659,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2025-05-20 21:10:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-05-20 22:05:20 +0000"
     },
     "done": true
   },
