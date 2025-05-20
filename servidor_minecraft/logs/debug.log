@@ -1364,3 +1364,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [20May2025 21:36:16.107] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [20May2025 21:36:16.114] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [20May2025 21:38:50.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
+[20May2025 21:41:04.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Sweet Dreams]
+[20May2025 21:41:16.059] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 21:41:16.064] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 21:43:07.778] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Isn't It Iron Pick]
+[20May2025 21:46:16.071] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 21:46:16.077] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

@@ -101,15 +101,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-05-20 21:39:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2025-05-20 21:26:11 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-20 21:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
     },
     "done": true
   },
@@ -146,6 +164,12 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-05-20 21:11:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
     },
     "done": true
   },
@@ -251,6 +275,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2025-05-20 21:04:22 +0000"
@@ -319,8 +349,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2025-05-20 21:46:09 +0000",
       "beef": "2025-05-20 21:13:24 +0000",
-      "mutton": "2025-05-20 21:04:25 +0000"
+      "mutton": "2025-05-20 21:04:25 +0000",
+      "bread": "2025-05-20 21:41:00 +0000"
     },
     "done": false
   },
@@ -402,9 +434,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-05-20 21:25:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-05-20 21:43:07 +0000"
     },
     "done": true
   },
@@ -441,6 +485,12 @@
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_stick": "2025-05-20 20:38:14 +0000"
+    },
+    "done": true
+  },
+  "usefulbackpacks:recipes/filter_tag": {
+    "criteria": {
+      "has_small_backpack": "2025-05-20 21:40:51 +0000"
     },
     "done": true
   },
@@ -582,6 +632,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-05-20 21:45:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-05-20 02:51:57 +0000",
@@ -591,6 +647,7 @@
       "minecraft:stony_shore": "2025-05-20 21:28:28 +0000",
       "minecraft:snowy_plains": "2025-05-20 20:41:35 +0000",
       "minecraft:snowy_taiga": "2025-05-20 20:40:59 +0000",
+      "minecraft:dripstone_caves": "2025-05-20 21:37:47 +0000",
       "minecraft:forest": "2025-05-20 20:39:30 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-20 21:33:59 +0000",
       "minecraft:meadow": "2025-05-20 21:20:59 +0000",
@@ -649,6 +706,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-05-20 20:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
     },
     "done": true
   },
@@ -847,6 +910,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-05-20 21:11:14 +0000"
@@ -901,6 +970,12 @@
     },
     "done": true
   },
+  "usefulbackpacks:recipes/filter_item": {
+    "criteria": {
+      "has_small_backpack": "2025-05-20 21:40:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-05-20 21:11:14 +0000"
@@ -916,6 +991,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2025-05-20 21:26:11 +0000"
+    },
+    "done": true
+  },
+  "usefulbackpacks:recipes/backpack_medium": {
+    "criteria": {
+      "has_small_backpack": "2025-05-20 21:40:51 +0000"
     },
     "done": true
   },
@@ -988,6 +1069,18 @@
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-05-20 21:13:51 +0000"
+    },
+    "done": true
+  },
+  "usefulbackpacks:recipes/backpack_large": {
+    "criteria": {
+      "has_medium_backpack": "2025-05-20 21:41:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-20 21:39:57 +0000"
     },
     "done": true
   },
