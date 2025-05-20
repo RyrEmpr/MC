@@ -124,3 +124,19 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [00:53:27] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-507, y=22, z=-486} gj{x=-507, y=25, z=-486}
 [00:53:27] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-507, y=21, z=-486} gj{x=-507, y=25, z=-486}
 [00:55:09] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-575, y=16, z=-450} gj{x=-575, y=17, z=-450}
+[00:58:53] [Server thread/INFO]: SantRss29 fell from a high place
+[00:59:29] [Server thread/INFO]: Made SantRss29 a server operator
+[00:59:42] [Server thread/INFO]: [SantRss29: Teleported SantRss29 to umpichechi]
+[00:59:48] [Server thread/INFO]: [SantRss29: Made SantRss29 no longer a server operator]
+[01:00:01] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-410, y=-35, z=-419} gj{x=-407, y=-38, z=-413}
+[01:00:08] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-410, y=-35, z=-419} gj{x=-407, y=-37, z=-403}
+[01:12:31] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-326, y=-43, z=-450} gj{x=-326, y=-42, z=-454}
+[01:12:31] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-326, y=-43, z=-450} gj{x=-326, y=-42, z=-454}
+[01:12:44] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-300, y=-29, z=-441} gj{x=-299, y=-29, z=-441}
+[01:13:49] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-286, y=3, z=-421} gj{x=-286, y=2, z=-420}
+[01:14:10] [Server thread/INFO]: umpichechi fell from a high place
+[01:14:48] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=0, y=0, z=0} gj{x=-400, y=69, z=-393}
+[01:20:01] [Server thread/INFO]: umpichechi fell from a high place
+[01:20:50] [Server thread/INFO]: SantRss29 fell from a high place
+[01:20:55] [Server thread/INFO]: umpichechi has made the advancement [Fishy Business]
+[01:23:24] [Server thread/INFO]: SantRss29 has made the advancement [Ice Bucket Challenge]
