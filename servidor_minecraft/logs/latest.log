@@ -117,3 +117,10 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [00:45:12] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-548, y=1, z=-448} gj{x=-549, y=1, z=-448}
 [00:45:41] [Server thread/INFO]: umpichechi has made the advancement [Suit Up]
 [00:46:13] [Server thread/INFO]: umpichechi has made the advancement [The Cutest Predator]
+[00:49:57] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-554, y=16, z=-475} gj{x=-555, y=16, z=-475}
+[00:53:00] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-531, y=18, z=-472} gj{x=-532, y=20, z=-471}
+[00:53:00] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-531, y=18, z=-472} gj{x=-532, y=20, z=-471}
+[00:53:27] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-508, y=22, z=-486} gj{x=-507, y=25, z=-486}
+[00:53:27] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-507, y=22, z=-486} gj{x=-507, y=25, z=-486}
+[00:53:27] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-507, y=21, z=-486} gj{x=-507, y=25, z=-486}
+[00:55:09] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-575, y=16, z=-450} gj{x=-575, y=17, z=-450}
