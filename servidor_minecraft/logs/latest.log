@@ -145,3 +145,12 @@
 [20May2025 21:38:50.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
 [20May2025 21:41:04.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Sweet Dreams]
 [20May2025 21:43:07.778] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Isn't It Iron Pick]
+[20May2025 21:52:51.606] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by Zombie
+[20May2025 21:52:53.002] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 was kicked for floating too long!
+[20May2025 21:52:53.050] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Flying is not enabled on this server
+[20May2025 21:52:53.050] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game
+[20May2025 21:53:09.362] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@40333796
+[20May2025 21:53:09.368] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.104.248.100:37035] logged in with entity id 27779 at (23.632227085876742, 47.7531999805212, 1872.598819674679)
+[20May2025 21:53:09.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
+[20May2025 21:57:05.300] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by Zombie
+[20May2025 21:59:17.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
