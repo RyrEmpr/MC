@@ -100,3 +100,11 @@
 [20May2025 20:33:49.085] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1ddd3453
 [20May2025 20:33:49.104] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.226.83.152:33193] logged in with entity id 189 at (56.29073436797253, 88.0, -12.249968543621103)
 [20May2025 20:33:49.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
+[20May2025 20:45:25.902] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6ede0f27
+[20May2025 20:45:25.908] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.29.139.103:36935] logged in with entity id 2658 at (32.69999998807907, 112.0, 14.04985050062617)
+[20May2025 20:45:25.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[20May2025 20:46:25.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 fell from a high place
+[20May2025 20:48:08.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was shot by Skeleton
+[20May2025 20:49:15.502] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Stone Age]
+[20May2025 20:49:21.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was shot by Skeleton
+[20May2025 20:49:29.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Monster Hunter]
