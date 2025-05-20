@@ -130,3 +130,15 @@
 [20May2025 21:10:20.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Acquire Hardware]
 [20May2025 21:11:19.203] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by Zombie
 [20May2025 21:12:41.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was shot by Skeleton
+[20May2025 21:23:44.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <umpichechi> mano?
+[20May2025 21:24:34.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <umpichechi> manoo?
+[20May2025 21:25:12.286] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <umpichechi> mano?
+[20May2025 21:25:26.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Sweet Dreams]
+[20May2025 21:25:30.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <SantRss29> 7
+[20May2025 21:26:07.652] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[20May2025 21:26:07.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[20May2025 21:26:11.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Acquire Hardware]
+[20May2025 21:28:03.617] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5597c7de
+[20May2025 21:28:03.623] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.13.168.198:34655] logged in with entity id 15730 at (31.187786609957943, 108.0, 14.833163944394087)
+[20May2025 21:28:03.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[20May2025 21:29:47.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Isn't It Iron Pick]
