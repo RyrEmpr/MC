@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-05-20 02:02:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2025-05-20 01:13:02 +0000"
@@ -443,6 +449,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-05-20 02:02:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-05-20 02:02:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-05-20 00:38:26 +0000"
@@ -470,6 +488,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-20 00:23:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-05-20 01:56:15 +0000"
     },
     "done": true
   },
@@ -737,6 +761,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-05-20 01:56:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-05-20 01:33:42 +0000"
@@ -746,6 +776,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-05-09 23:03:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-05-20 02:02:15 +0000"
     },
     "done": true
   },
@@ -803,7 +839,9 @@
       "minecraft:skeleton": "2025-05-20 00:25:59 +0000",
       "minecraft:spider": "2025-05-20 01:12:40 +0000",
       "minecraft:creeper": "2025-05-20 01:13:34 +0000",
+      "minecraft:zombified_piglin": "2025-05-20 01:52:48 +0000",
       "minecraft:wither_skeleton": "2025-05-20 01:43:03 +0000",
+      "minecraft:piglin": "2025-05-20 02:00:34 +0000",
       "minecraft:enderman": "2025-05-20 00:43:58 +0000",
       "minecraft:zombie": "2025-05-20 00:46:23 +0000",
       "minecraft:drowned": "2025-05-20 00:30:43 +0000"
@@ -1320,6 +1358,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-05-20 01:56:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-05-20 00:23:11 +0000"
@@ -1431,6 +1475,12 @@
   "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-05-20 00:38:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-05-20 02:02:15 +0000"
     },
     "done": true
   },
@@ -1570,6 +1620,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-05-20 00:38:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-05-20 02:02:15 +0000"
     },
     "done": true
   },
