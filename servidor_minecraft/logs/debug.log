@@ -1037,3 +1037,29 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [21May2025 18:02:25.143] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [21May2025 18:02:25.160] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21May2025 18:06:09.404] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/3890, l='ServerLevel[world]', x=2867.59, y=116.77, z=-4164.35] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 18:07:25.097] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 18:07:25.104] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 18:07:36.544] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/3887, l='ServerLevel[world]', x=2869.36, y=116.00, z=-4160.61] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 18:07:51.839] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/3891, l='ServerLevel[world]', x=2868.73, y=116.00, z=-4161.47] died, message: 'Librarian was slain by SantRss29'
+[21May2025 18:08:32.039] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/3886, l='ServerLevel[world]', x=2862.51, y=115.00, z=-4148.45] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 18:08:51.892] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/3900, l='ServerLevel[world]', x=2837.70, y=119.00, z=-4172.18] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 18:11:20.451] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Disconnected
+[21May2025 18:11:20.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game
+[21May2025 18:11:30.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21May2025 18:11:30.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21May2025 18:11:30.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21May2025 18:11:32.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21May2025 18:11:32.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21May2025 18:11:32.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21May2025 18:11:32.550] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 18:11:32.555] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 18:11:32.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21May2025 18:11:32.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21May2025 18:11:32.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21May2025 18:11:32.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21May2025 18:11:32.721] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./world/serverconfig
+[21May2025 18:11:32.722] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[21May2025 18:11:32.723] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file elevatorid-server.toml changed, sending notifies
+[21May2025 18:11:32.723] [Thread-0/DEBUG] [xyz.vsngamer.elevatorid.init.ModConfig/FORGEMOD]: Elevator config just got changed on the file system!
+[21May2025 18:11:32.724] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file elevatorid-server.toml changed, sending notifies
+[21May2025 18:11:32.724] [Thread-0/DEBUG] [xyz.vsngamer.elevatorid.init.ModConfig/FORGEMOD]: Elevator config just got changed on the file system!
