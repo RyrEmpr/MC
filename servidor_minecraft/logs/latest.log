@@ -126,3 +126,6 @@
 [21May2025 13:16:58.689] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44661] logged in with entity id 7994 at (10.961203743237327, -1.0, 1788.7772324357413)
 [21May2025 13:16:58.703] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
 [21May2025 13:26:18.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Diamonds!]
+[21May2025 13:40:26.170] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [What a Deal!]
+[21May2025 13:50:47.171] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=13, y=-51, z=1702} BlockPos{x=13, y=-51, z=1701}
+[21May2025 13:54:51.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Cover Me with Diamonds]
