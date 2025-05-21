@@ -129,3 +129,5 @@
 [21May2025 13:40:26.170] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [What a Deal!]
 [21May2025 13:50:47.171] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=13, y=-51, z=1702} BlockPos{x=13, y=-51, z=1701}
 [21May2025 13:54:51.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Cover Me with Diamonds]
+[21May2025 14:02:57.436] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/21699, l='ServerLevel[world]', x=24.70, y=73.00, z=1065.35] died, message: 'Villager was slain by SantRss29'
+[21May2025 14:04:46.675] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/23411, l='ServerLevel[world]', x=309.08, y=72.00, z=746.48] died, message: 'Fisherman was slain by SantRss29'
