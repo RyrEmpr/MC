@@ -220,3 +220,15 @@
 [21May2025 14:49:14.965] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Voluntary Exile]
 [21May2025 14:49:41.115] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/38368, l='ServerLevel[world]', x=245.30, y=73.00, z=749.70] died, message: 'Fisherman was slain by SantRss29'
 [21May2025 14:50:10.114] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Not Today, Thank You]
+[21May2025 14:52:18.562] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/38424, l='ServerLevel[world]', x=274.25, y=74.25, z=719.50] died, message: 'Farmer was slain by Vindicator'
+[21May2025 14:52:42.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has completed the challenge [Hero of the Village]
+[21May2025 14:52:42.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has completed the challenge [Hero of the Village]
+[21May2025 14:59:57.168] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Not Today, Thank You]
+[21May2025 15:03:48.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [What a Deal!]
+[21May2025 15:04:15.116] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/43617, l='ServerLevel[world]', x=16.50, y=70.42, z=1058.85] died, message: 'Villager was slain by Zombie'
+[21May2025 15:07:33.520] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[21May2025 15:07:33.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[21May2025 15:10:12.673] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@578155a2
+[21May2025 15:10:12.681] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44149] logged in with entity id 46034 at (239.28531576101415, 76.0, 750.4888014900124)
+[21May2025 15:10:12.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 15:21:51.084] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/45004, l='ServerLevel[world]', x=-8.70, y=90.00, z=340.58] died, message: 'Villager was slain by umpichechi'
