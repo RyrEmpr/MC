@@ -1400,3 +1400,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [21May2025 12:18:57.403] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.119.96.176:50353] logged in with entity id 8410 at (35.265011218722506, 107.5, 19.08815740681075)
 [21May2025 12:18:57.404] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@357ae828 into net.minecraft.network.Connection@77e0c818
 [21May2025 12:18:57.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
+[21May2025 12:22:28.919] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 12:22:28.923] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 12:27:28.913] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 12:27:28.922] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
