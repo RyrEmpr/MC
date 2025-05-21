@@ -250,3 +250,18 @@
 [21May2025 15:50:40.525] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/55814, l='ServerLevel[world]', x=-1478.29, y=63.00, z=97.70] died, message: 'Fletcher was slain by SantRss29'
 [21May2025 15:57:46.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Disconnected
 [21May2025 15:57:46.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game
+[21May2025 16:15:49.923] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@20aab728
+[21May2025 16:15:49.930] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.167.113.165:54713] logged in with entity id 58373 at (62.82747861034742, 72.0, 1094.2036840416395)
+[21May2025 16:15:49.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 16:19:21.412] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[21May2025 16:19:21.413] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[21May2025 16:22:04.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21May2025 16:22:04.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21May2025 16:22:04.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21May2025 16:22:08.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21May2025 16:22:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21May2025 16:22:10.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21May2025 16:22:10.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21May2025 16:22:10.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21May2025 16:22:10.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21May2025 16:22:10.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
