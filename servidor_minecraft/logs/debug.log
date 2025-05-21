@@ -1155,3 +1155,15 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [21May2025 11:47:28.922] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [21May2025 11:47:28.928] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21May2025 11:50:05.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by Zombie
+[21May2025 11:52:28.921] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 11:52:28.934] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 11:57:05.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Diamonds!]
+[21May2025 11:57:28.928] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 11:57:28.937] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 12:00:53.752] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was killed by Witch using magic
+[21May2025 12:02:28.914] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 12:02:28.922] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 12:03:11.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was killed by Witch using magic
+[21May2025 12:04:22.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was killed by Witch using magic
+[21May2025 12:07:28.907] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 12:07:28.911] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
