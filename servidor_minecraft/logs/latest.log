@@ -239,3 +239,12 @@
 [21May2025 15:30:20.191] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/49086, l='ServerLevel[world]', x=22.12, y=73.00, z=1074.07] died, message: 'Fletcher was slain by SantRss29'
 [21May2025 15:31:43.316] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
 [21May2025 15:31:43.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[21May2025 15:32:39.231] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/50632, l='ServerLevel[world]', x=15.30, y=63.94, z=331.72] died, message: 'Toolsmith was slain by SantRss29'
+[21May2025 15:33:02.431] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/50637, l='ServerLevel[world]', x=42.40, y=64.00, z=337.40] died, message: 'Armorer was slain by SantRss29'
+[21May2025 15:33:39.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nothing changed. The player already is an operator
+[21May2025 15:33:47.028] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to -1471.500000, 66.000000, 96.500000]
+[21May2025 15:33:47.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[21May2025 15:38:28.483] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/52392, l='ServerLevel[world]', x=-1478.53, y=64.00, z=110.46] died, message: 'Butcher was slain by SantRss29'
+[21May2025 15:43:37.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <SantRss29> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+[21May2025 15:50:19.325] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/55811, l='ServerLevel[world]', x=-1447.50, y=64.00, z=89.58] died, message: 'Toolsmith was slain by SantRss29'
+[21May2025 15:50:40.525] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/55814, l='ServerLevel[world]', x=-1478.29, y=63.00, z=97.70] died, message: 'Fletcher was slain by SantRss29'
