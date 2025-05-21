@@ -122,3 +122,14 @@
 [21May2025 12:00:53.752] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was killed by Witch using magic
 [21May2025 12:03:11.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was killed by Witch using magic
 [21May2025 12:04:22.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was killed by Witch using magic
+[21May2025 12:11:40.089] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by Spider
+[21May2025 12:13:21.499] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@360cd8af
+[21May2025 12:13:21.506] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:33677] logged in with entity id 6888 at (38.84237010010947, 108.0, 16.3175515292923)
+[21May2025 12:13:21.517] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 12:15:01.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was shot by Skeleton
+[21May2025 12:17:01.239] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Disconnected
+[21May2025 12:17:01.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game
+[21May2025 12:18:22.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Suit Up]
+[21May2025 12:18:57.397] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@481a1b1d
+[21May2025 12:18:57.403] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.119.96.176:50353] logged in with entity id 8410 at (35.265011218722506, 107.5, 19.08815740681075)
+[21May2025 12:18:57.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
