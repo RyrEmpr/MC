@@ -125,3 +125,4 @@
 [21May2025 13:16:58.674] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1d9eff3
 [21May2025 13:16:58.689] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44661] logged in with entity id 7994 at (10.961203743237327, -1.0, 1788.7772324357413)
 [21May2025 13:16:58.703] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 13:26:18.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Diamonds!]

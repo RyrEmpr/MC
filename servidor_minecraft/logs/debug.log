@@ -1269,3 +1269,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [21May2025 13:16:58.689] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44661] logged in with entity id 7994 at (10.961203743237327, -1.0, 1788.7772324357413)
 [21May2025 13:16:58.690] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@7e33edb2 into net.minecraft.network.Connection@7e95a514
 [21May2025 13:16:58.703] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 13:20:54.902] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 13:20:54.906] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 13:25:54.899] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 13:25:54.909] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 13:26:18.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Diamonds!]
