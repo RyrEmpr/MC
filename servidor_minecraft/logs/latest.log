@@ -134,3 +134,45 @@
 [21May2025 14:12:29.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
 [21May2025 14:18:40.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 suffocated in a wall
 [21May2025 14:20:01.265] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/29279, l='ServerLevel[world]', x=214.70, y=82.00, z=685.70] died, message: 'Fisherman was slain by Zombie'
+[21May2025 14:22:21.368] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[21May2025 14:22:21.369] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[21May2025 14:22:56.824] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6d7cccd9
+[21May2025 14:22:56.834] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44263] logged in with entity id 30710 at (364.96699887094496, -23.0, 2275.978844258846)
+[21May2025 14:22:56.845] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 14:23:01.830] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi suffocated in a wall
+[21May2025 14:24:28.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
+[21May2025 14:25:28.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[21May2025 14:25:28.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[21May2025 14:25:44.413] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 burned to death
+[21May2025 14:27:38.121] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@42a63ad3
+[21May2025 14:27:38.127] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:54303] logged in with entity id 32838 at (364.69999998807907, -41.0, 2275.3638896134335)
+[21May2025 14:27:38.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 14:27:42.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
+[21May2025 14:28:24.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made umpichehci a server operator
+[21May2025 14:28:37.113] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made SantRss29 a server operator
+[21May2025 14:28:40.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Set own game mode to Creative Mode]
+[21May2025 14:28:42.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Set own game mode to Spectator Mode]
+[21May2025 14:28:44.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
+[21May2025 14:29:17.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Set own game mode to Survival Mode]
+[21May2025 14:29:40.665] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported umpichechi to SantRss29
+[21May2025 14:30:11.295] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Made umpichehci no longer a server operator]
+[21May2025 14:30:16.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Made SantRss29 no longer a server operator]
+[21May2025 14:30:39.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: No entity was found
+[21May2025 14:31:19.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Incorrect argument for command
+[21May2025 14:31:19.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ...mpichechi Santp tp umpichchi SantRss29<--[HERE]
+[21May2025 14:31:57.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
+[21May2025 14:32:28.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported umpichechi to SantRss29
+[21May2025 14:36:41.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Seed: [1197320403273852523]
+[21May2025 14:37:21.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Incorrect argument for command
+[21May2025 14:37:21.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ...SantRss29 /tp -1184 ~ -784<--[HERE]
+[21May2025 14:37:51.341] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to -1183.500000, 95.000000, -783.500000
+[21May2025 14:37:51.343] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3035ms or 60 ticks behind
+[21May2025 14:39:14.908] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made SantRss29 a server operator
+[21May2025 14:39:19.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to 288.500000, 72.000000, 112.500000]
+[21May2025 14:40:17.471] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to 288.500000, 64.000000, 112.500000]
+[21May2025 14:40:28.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to 288.500000, 100.000000, 112.500000]
+[21May2025 14:40:50.569] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=115, z=16}
+[21May2025 14:40:51.169] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=116, z=16}
+[21May2025 14:40:51.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=115, z=16}
+[21May2025 14:40:51.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=114, z=16}
+[21May2025 14:40:51.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=32, y=113, z=16}
