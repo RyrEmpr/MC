@@ -131,3 +131,6 @@
 [21May2025 13:54:51.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Cover Me with Diamonds]
 [21May2025 14:02:57.436] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/21699, l='ServerLevel[world]', x=24.70, y=73.00, z=1065.35] died, message: 'Villager was slain by SantRss29'
 [21May2025 14:04:46.675] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/23411, l='ServerLevel[world]', x=309.08, y=72.00, z=746.48] died, message: 'Fisherman was slain by SantRss29'
+[21May2025 14:12:29.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
+[21May2025 14:18:40.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 suffocated in a wall
+[21May2025 14:20:01.265] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/29279, l='ServerLevel[world]', x=214.70, y=82.00, z=685.70] died, message: 'Fisherman was slain by Zombie'

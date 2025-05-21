@@ -1775,6 +1775,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2025-05-21 14:10:20 +0000"
+    },
+    "done": true
+  },
   "usefulbackpacks:recipes/backpack_small": {
     "criteria": {
       "has_wool": "2025-05-20 21:08:53 +0000"
