@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-05-21 14:44:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-20 21:08:16 +0000"
@@ -938,7 +944,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-05-21 14:41:13 +0000",
       "minecraft:skeleton": "2025-05-20 21:13:08 +0000",
+      "minecraft:vindicator": "2025-05-21 14:50:05 +0000",
       "minecraft:spider": "2025-05-20 21:11:38 +0000",
       "minecraft:creeper": "2025-05-20 21:51:03 +0000",
       "minecraft:witch": "2025-05-20 21:07:37 +0000",
@@ -949,6 +957,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2025-05-21 11:57:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-21 14:44:06 +0000"
     },
     "done": true
   },
@@ -1063,6 +1077,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-05-21 11:57:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-05-21 14:42:30 +0000"
     },
     "done": true
   },
@@ -1381,6 +1401,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2025-05-20 22:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-05-21 14:50:10 +0000"
     },
     "done": true
   },
@@ -1945,6 +1971,12 @@
       "has_planks": "2025-05-20 21:08:16 +0000"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-05-21 14:44:06 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {

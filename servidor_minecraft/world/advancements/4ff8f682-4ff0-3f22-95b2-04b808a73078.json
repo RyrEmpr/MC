@@ -119,6 +119,18 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-05-21 14:44:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-05-21 14:44:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-20 20:48:48 +0000"
@@ -305,6 +317,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-05-20 21:06:39 +0000"
@@ -344,6 +362,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-05-21 12:56:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
     },
     "done": true
   },
@@ -620,6 +644,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2025-05-20 21:08:53 +0000"
@@ -719,6 +749,12 @@
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
       "has_white_wool": "2025-05-20 21:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
     },
     "done": true
   },
@@ -902,6 +938,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-05-20 20:48:48 +0000"
@@ -934,6 +976,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-05-21 14:49:07 +0000",
       "minecraft:skeleton": "2025-05-20 20:49:29 +0000",
       "minecraft:spider": "2025-05-21 13:13:44 +0000",
       "minecraft:zombie": "2025-05-20 21:07:09 +0000"
@@ -943,6 +986,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2025-05-21 13:26:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-21 14:44:02 +0000"
     },
     "done": true
   },
@@ -1024,6 +1073,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2025-05-20 20:48:48 +0000"
@@ -1051,6 +1106,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2025-05-21 14:35:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-05-21 14:49:14 +0000"
     },
     "done": true
   },
@@ -1294,6 +1355,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2025-05-20 21:10:20 +0000"
@@ -1312,9 +1379,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-05-21 12:14:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-21 14:45:17 +0000"
     },
     "done": true
   },
@@ -1435,6 +1514,12 @@
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2025-05-21 13:09:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-05-21 14:44:09 +0000"
     },
     "done": true
   },
@@ -1906,6 +1991,12 @@
       "has_planks": "2025-05-20 20:48:48 +0000"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-05-21 14:44:02 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {

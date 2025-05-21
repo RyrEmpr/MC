@@ -176,3 +176,47 @@
 [21May2025 14:40:51.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=115, z=16}
 [21May2025 14:40:51.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=114, z=16}
 [21May2025 14:40:51.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=32, y=113, z=16}
+[21May2025 14:41:26.168] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=114, z=16}
+[21May2025 14:41:26.334] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=115, z=16}
+[21May2025 14:41:26.435] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=116, z=16}
+[21May2025 14:41:26.580] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=117, z=16}
+[21May2025 14:41:26.684] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=116, z=16}
+[21May2025 14:41:26.784] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=117, z=16}
+[21May2025 14:41:26.885] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=115, z=16}
+[21May2025 14:41:26.984] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=114, z=16}
+[21May2025 14:41:27.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=113, z=16}
+[21May2025 14:41:28.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:41:28.482] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=114, z=15}
+[21May2025 14:42:18.869] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=33, y=113, z=16}
+[21May2025 14:42:30.421] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Voluntary Exile]
+[21May2025 14:42:49.213] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=29, y=112, z=16}
+[21May2025 14:43:01.422] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=112, z=16}
+[21May2025 14:43:02.546] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=16}
+[21May2025 14:43:02.713] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:02.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=16}
+[21May2025 14:43:03.471] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:07.519] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=16}
+[21May2025 14:43:10.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=112, z=15}
+[21May2025 14:43:10.983] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:51.764] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=33, y=114, z=15}
+[21May2025 14:43:51.830] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:51.964] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=33, y=114, z=15}
+[21May2025 14:43:52.230] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:52.570] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=31, y=112, z=15}
+[21May2025 14:43:52.614] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:52.881] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:53.080] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:53.313] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:53.564] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:43:53.765] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
+[21May2025 14:44:02.570] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [We Need to Go Deeper]
+[21May2025 14:44:02.659] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3602ms or 72 ticks behind
+[21May2025 14:44:06.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [We Need to Go Deeper]
+[21May2025 14:47:14.313] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[21May2025 14:47:14.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
+[21May2025 14:47:27.623] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4e002650
+[21May2025 14:47:27.629] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:60277] logged in with entity id 38234 at (33.851757935546495, 108.0, 18.460169640249653)
+[21May2025 14:47:27.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[21May2025 14:49:14.965] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Voluntary Exile]
+[21May2025 14:49:41.115] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/38368, l='ServerLevel[world]', x=245.30, y=73.00, z=749.70] died, message: 'Fisherman was slain by SantRss29'
+[21May2025 14:50:10.114] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Not Today, Thank You]
