@@ -133,3 +133,4 @@
 [21May2025 12:18:57.397] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@481a1b1d
 [21May2025 12:18:57.403] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.119.96.176:50353] logged in with entity id 8410 at (35.265011218722506, 107.5, 19.08815740681075)
 [21May2025 12:18:57.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
+[21May2025 12:41:01.715] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Enchanter]
