@@ -248,3 +248,5 @@
 [21May2025 15:43:37.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <SantRss29> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 [21May2025 15:50:19.325] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/55811, l='ServerLevel[world]', x=-1447.50, y=64.00, z=89.58] died, message: 'Toolsmith was slain by SantRss29'
 [21May2025 15:50:40.525] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/55814, l='ServerLevel[world]', x=-1478.29, y=63.00, z=97.70] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 15:57:46.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Disconnected
+[21May2025 15:57:46.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game

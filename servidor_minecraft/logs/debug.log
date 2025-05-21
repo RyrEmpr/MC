@@ -1890,3 +1890,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [21May2025 15:50:40.525] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/55814, l='ServerLevel[world]', x=-1478.29, y=63.00, z=97.70] died, message: 'Fletcher was slain by SantRss29'
 [21May2025 15:51:03.478] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [21May2025 15:51:03.496] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 15:56:03.487] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 15:56:03.492] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 15:57:46.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Disconnected
+[21May2025 15:57:46.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game
+[21May2025 16:01:03.465] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 16:01:03.470] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
