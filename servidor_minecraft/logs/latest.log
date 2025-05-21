@@ -1,267 +1,105 @@
-[21May2025 12:48:59.084] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
-[21May2025 12:48:59.094] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.15 by Ubuntu
-[21May2025 12:48:59.738] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[21May2025 12:49:00.730] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
-[21May2025 12:49:00.733] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[21May2025 12:49:00.741] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[21May2025 12:49:00.750] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[21May2025 12:49:00.995] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[21May2025 12:49:06.335] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[21May2025 12:49:06.348] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[21May2025 12:49:21.722] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[21May2025 12:49:27.821] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
-[21May2025 12:49:27.983] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
-[21May2025 12:49:27.988] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
-[21May2025 12:49:28.580] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[21May2025 12:49:29.842] [main/INFO] [journeymap/]: Initializing Packet Registries
-[21May2025 12:49:32.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
-[21May2025 12:49:34.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.12.2.94 Target: null
-[21May2025 12:49:34.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21May2025 12:49:34.799] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.2.21 Target: 40.3.0
-[21May2025 12:49:34.799] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[21May2025 12:49:34.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: AHEAD Current: 4.0.1.379 Target: null
-[21May2025 12:49:34.864] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[21May2025 12:49:35.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.7 Target: 5.9.8
-[21May2025 12:49:37.993] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21May2025 12:49:41.740] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/assets/.mcassetsroot' uses unexpected schema
-[21May2025 12:49:41.742] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/data/.mcassetsroot' uses unexpected schema
-[21May2025 12:49:46.851] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21May2025 12:49:46.856] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21May2025 12:49:46.882] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21May2025 12:49:46.892] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21May2025 12:49:46.898] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21May2025 12:49:56.009] [Worker-Main-2/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[21May2025 12:49:59.192] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1148 advancements
-[21May2025 12:50:02.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
-[21May2025 12:50:02.662] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[21May2025 12:50:02.666] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[21May2025 12:50:02.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[21May2025 12:50:03.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[21May2025 12:50:03.270] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21May2025 12:50:03.670] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21May2025 12:50:03.674] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[21May2025 12:50:03.674] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21May2025 12:50:03.675] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[21May2025 12:50:03.808] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[21May2025 12:50:03.821] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[21May2025 12:50:03.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[21May2025 12:50:05.225] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:07.348] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:09.861] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:17.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21May2025 12:50:18.595] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:19.889] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:21.546] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:22.427] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.473] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.565] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.612] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.665] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.709] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.741] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.780] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.819] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.858] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.888] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:22.921] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:23.062] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:23.573] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:24.061] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:24.996] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:25.064] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:25.567] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:26.072] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:26.587] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:27.059] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:27.559] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:28.059] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:28.573] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:29.062] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:29.533] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:29.694] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:30.060] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:30.570] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:31.101] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 12:50:31.384] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:31.559] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[21May2025 12:50:32.057] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[21May2025 12:50:32.562] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[21May2025 12:50:33.060] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[21May2025 12:50:33.558] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[21May2025 12:50:34.059] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[21May2025 12:50:34.557] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[21May2025 12:50:34.671] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[21May2025 12:50:35.057] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[21May2025 12:50:35.562] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[21May2025 12:50:36.061] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[21May2025 12:50:36.576] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[21May2025 12:50:37.057] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[21May2025 12:50:37.557] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[21May2025 12:50:38.058] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[21May2025 12:50:38.562] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[21May2025 12:50:39.058] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[21May2025 12:50:39.564] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[21May2025 12:50:40.061] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[21May2025 12:50:42.300] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25245 ms
-[21May2025 12:50:42.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (38.563s)! For help, type "help"
-[21May2025 12:50:42.363] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[21May2025 12:50:45.629] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[21May2025 12:50:50.249] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@47f884d0
-[21May2025 12:50:50.311] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.119.96.176:48693] logged in with entity id 173 at (31.318849383806892, 108.0, 20.50383916784229)
-[21May2025 12:50:50.436] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
-[21May2025 12:51:00.480] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@10c4a201
-[21May2025 12:51:00.512] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:52097] logged in with entity id 189 at (30.639174850896374, 108.0, 21.76549958544474)
-[21May2025 12:51:00.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
-[21May2025 12:51:08.976] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8369ms or 167 ticks behind
-[21May2025 12:51:55.216] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[21May2025 13:02:30.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Take Aim]
-[21May2025 13:02:34.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Take Aim]
-[21May2025 13:10:30.820] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-152, y=64, z=1691} BlockPos{x=-152, y=62, z=1691}
-[21May2025 13:10:32.079] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-150, y=64, z=1686} BlockPos{x=-151, y=62, z=1686}
-[21May2025 13:12:26.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 fell from a high place
-[21May2025 13:14:18.066] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Timed out
-[21May2025 13:14:18.066] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
-[21May2025 13:14:18.115] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[21May2025 13:16:58.674] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1d9eff3
-[21May2025 13:16:58.689] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44661] logged in with entity id 7994 at (10.961203743237327, -1.0, 1788.7772324357413)
-[21May2025 13:16:58.703] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
-[21May2025 13:26:18.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Diamonds!]
-[21May2025 13:40:26.170] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [What a Deal!]
-[21May2025 13:50:47.171] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=13, y=-51, z=1702} BlockPos{x=13, y=-51, z=1701}
-[21May2025 13:54:51.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Cover Me with Diamonds]
-[21May2025 14:02:57.436] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/21699, l='ServerLevel[world]', x=24.70, y=73.00, z=1065.35] died, message: 'Villager was slain by SantRss29'
-[21May2025 14:04:46.675] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/23411, l='ServerLevel[world]', x=309.08, y=72.00, z=746.48] died, message: 'Fisherman was slain by SantRss29'
-[21May2025 14:12:29.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
-[21May2025 14:18:40.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 suffocated in a wall
-[21May2025 14:20:01.265] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/29279, l='ServerLevel[world]', x=214.70, y=82.00, z=685.70] died, message: 'Fisherman was slain by Zombie'
-[21May2025 14:22:21.368] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
-[21May2025 14:22:21.369] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
-[21May2025 14:22:56.824] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6d7cccd9
-[21May2025 14:22:56.834] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44263] logged in with entity id 30710 at (364.96699887094496, -23.0, 2275.978844258846)
-[21May2025 14:22:56.845] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
-[21May2025 14:23:01.830] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi suffocated in a wall
-[21May2025 14:24:28.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
-[21May2025 14:25:28.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
-[21May2025 14:25:28.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
-[21May2025 14:25:44.413] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 burned to death
-[21May2025 14:27:38.121] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@42a63ad3
-[21May2025 14:27:38.127] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:54303] logged in with entity id 32838 at (364.69999998807907, -41.0, 2275.3638896134335)
-[21May2025 14:27:38.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
-[21May2025 14:27:42.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
-[21May2025 14:28:24.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made umpichehci a server operator
-[21May2025 14:28:37.113] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made SantRss29 a server operator
-[21May2025 14:28:40.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Set own game mode to Creative Mode]
-[21May2025 14:28:42.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Set own game mode to Spectator Mode]
-[21May2025 14:28:44.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
-[21May2025 14:29:17.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Set own game mode to Survival Mode]
-[21May2025 14:29:40.665] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported umpichechi to SantRss29
-[21May2025 14:30:11.295] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Made umpichehci no longer a server operator]
-[21May2025 14:30:16.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Made SantRss29 no longer a server operator]
-[21May2025 14:30:39.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: No entity was found
-[21May2025 14:31:19.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Incorrect argument for command
-[21May2025 14:31:19.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ...mpichechi Santp tp umpichchi SantRss29<--[HERE]
-[21May2025 14:31:57.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to umpichechi
-[21May2025 14:32:28.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported umpichechi to SantRss29
-[21May2025 14:36:41.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Seed: [1197320403273852523]
-[21May2025 14:37:21.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Incorrect argument for command
-[21May2025 14:37:21.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ...SantRss29 /tp -1184 ~ -784<--[HERE]
-[21May2025 14:37:51.341] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported SantRss29 to -1183.500000, 95.000000, -783.500000
-[21May2025 14:37:51.343] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3035ms or 60 ticks behind
-[21May2025 14:39:14.908] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made SantRss29 a server operator
-[21May2025 14:39:19.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to 288.500000, 72.000000, 112.500000]
-[21May2025 14:40:17.471] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to 288.500000, 64.000000, 112.500000]
-[21May2025 14:40:28.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to 288.500000, 100.000000, 112.500000]
-[21May2025 14:40:50.569] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=115, z=16}
-[21May2025 14:40:51.169] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=116, z=16}
-[21May2025 14:40:51.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=115, z=16}
-[21May2025 14:40:51.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=33, y=114, z=16}
-[21May2025 14:40:51.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=19} BlockPos{x=32, y=113, z=16}
-[21May2025 14:41:26.168] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=114, z=16}
-[21May2025 14:41:26.334] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=115, z=16}
-[21May2025 14:41:26.435] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=116, z=16}
-[21May2025 14:41:26.580] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=117, z=16}
-[21May2025 14:41:26.684] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=116, z=16}
-[21May2025 14:41:26.784] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=117, z=16}
-[21May2025 14:41:26.885] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=115, z=16}
-[21May2025 14:41:26.984] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=114, z=16}
-[21May2025 14:41:27.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=113, z=16}
-[21May2025 14:41:28.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:41:28.482] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=114, z=17} BlockPos{x=33, y=114, z=15}
-[21May2025 14:42:18.869] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=33, y=113, z=16}
-[21May2025 14:42:30.421] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Voluntary Exile]
-[21May2025 14:42:49.213] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=29, y=112, z=16}
-[21May2025 14:43:01.422] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=112, z=16}
-[21May2025 14:43:02.546] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=16}
-[21May2025 14:43:02.713] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:02.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=16}
-[21May2025 14:43:03.471] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:07.519] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=16}
-[21May2025 14:43:10.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=112, z=15}
-[21May2025 14:43:10.983] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:51.764] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=33, y=114, z=15}
-[21May2025 14:43:51.830] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:51.964] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=33, y=114, z=15}
-[21May2025 14:43:52.230] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:52.570] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=31, y=112, z=15}
-[21May2025 14:43:52.614] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:52.881] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:53.080] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:53.313] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:53.564] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:43:53.765] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=32, y=113, z=17} BlockPos{x=32, y=113, z=15}
-[21May2025 14:44:02.570] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [We Need to Go Deeper]
-[21May2025 14:44:02.659] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3602ms or 72 ticks behind
-[21May2025 14:44:06.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [We Need to Go Deeper]
-[21May2025 14:47:14.313] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
-[21May2025 14:47:14.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
-[21May2025 14:47:27.623] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4e002650
-[21May2025 14:47:27.629] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:60277] logged in with entity id 38234 at (33.851757935546495, 108.0, 18.460169640249653)
-[21May2025 14:47:27.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
-[21May2025 14:49:14.965] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Voluntary Exile]
-[21May2025 14:49:41.115] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/38368, l='ServerLevel[world]', x=245.30, y=73.00, z=749.70] died, message: 'Fisherman was slain by SantRss29'
-[21May2025 14:50:10.114] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has made the advancement [Not Today, Thank You]
-[21May2025 14:52:18.562] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/38424, l='ServerLevel[world]', x=274.25, y=74.25, z=719.50] died, message: 'Farmer was slain by Vindicator'
-[21May2025 14:52:42.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 has completed the challenge [Hero of the Village]
-[21May2025 14:52:42.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has completed the challenge [Hero of the Village]
-[21May2025 14:59:57.168] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Not Today, Thank You]
-[21May2025 15:03:48.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [What a Deal!]
-[21May2025 15:04:15.116] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/43617, l='ServerLevel[world]', x=16.50, y=70.42, z=1058.85] died, message: 'Villager was slain by Zombie'
-[21May2025 15:07:33.520] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
-[21May2025 15:07:33.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
-[21May2025 15:10:12.673] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@578155a2
-[21May2025 15:10:12.681] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44149] logged in with entity id 46034 at (239.28531576101415, 76.0, 750.4888014900124)
-[21May2025 15:10:12.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
-[21May2025 15:21:51.084] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/45004, l='ServerLevel[world]', x=-8.70, y=90.00, z=340.58] died, message: 'Villager was slain by umpichechi'
-[21May2025 15:25:29.175] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/45005, l='ServerLevel[world]', x=3.34, y=79.94, z=332.24] died, message: 'Fletcher was slain by umpichechi'
-[21May2025 15:25:34.638] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/45003, l='ServerLevel[world]', x=1.35, y=77.00, z=335.57] died, message: 'Fletcher was slain by umpichechi'
-[21May2025 15:26:31.537] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/45028, l='ServerLevel[world]', x=19.25, y=63.00, z=333.26] died, message: 'Fletcher was slain by SantRss29'
-[21May2025 15:28:18.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Cover Me with Diamonds]
-[21May2025 15:30:20.191] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/49086, l='ServerLevel[world]', x=22.12, y=73.00, z=1074.07] died, message: 'Fletcher was slain by SantRss29'
-[21May2025 15:31:43.316] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
-[21May2025 15:31:43.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
-[21May2025 15:32:39.231] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/50632, l='ServerLevel[world]', x=15.30, y=63.94, z=331.72] died, message: 'Toolsmith was slain by SantRss29'
-[21May2025 15:33:02.431] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/50637, l='ServerLevel[world]', x=42.40, y=64.00, z=337.40] died, message: 'Armorer was slain by SantRss29'
-[21May2025 15:33:39.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nothing changed. The player already is an operator
-[21May2025 15:33:47.028] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Teleported SantRss29 to -1471.500000, 66.000000, 96.500000]
-[21May2025 15:33:47.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[21May2025 15:38:28.483] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/52392, l='ServerLevel[world]', x=-1478.53, y=64.00, z=110.46] died, message: 'Butcher was slain by SantRss29'
-[21May2025 15:43:37.348] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <SantRss29> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-[21May2025 15:50:19.325] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/55811, l='ServerLevel[world]', x=-1447.50, y=64.00, z=89.58] died, message: 'Toolsmith was slain by SantRss29'
-[21May2025 15:50:40.525] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/55814, l='ServerLevel[world]', x=-1478.29, y=63.00, z=97.70] died, message: 'Fletcher was slain by SantRss29'
-[21May2025 15:57:46.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SantRss29 lost connection: Disconnected
-[21May2025 15:57:46.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 left the game
-[21May2025 16:15:49.923] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@20aab728
-[21May2025 16:15:49.930] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.167.113.165:54713] logged in with entity id 58373 at (62.82747861034742, 72.0, 1094.2036840416395)
-[21May2025 16:15:49.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
-[21May2025 16:19:21.412] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
-[21May2025 16:19:21.413] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
-[21May2025 16:22:04.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[21May2025 16:22:04.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[21May2025 16:22:04.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[21May2025 16:22:08.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21May2025 16:22:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21May2025 16:22:10.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21May2025 16:22:10.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21May2025 16:22:10.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21May2025 16:22:10.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21May2025 16:22:10.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21May2025 17:45:07.059] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+[21May2025 17:45:07.064] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.15 by Ubuntu
+[21May2025 17:45:07.361] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[21May2025 17:45:08.362] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
+[21May2025 17:45:08.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[21May2025 17:45:08.378] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[21May2025 17:45:08.384] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[21May2025 17:45:08.617] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[21May2025 17:45:13.468] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21May2025 17:45:13.473] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[21May2025 17:45:28.945] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[21May2025 17:45:34.553] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
+[21May2025 17:45:34.839] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+[21May2025 17:45:34.845] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
+[21May2025 17:45:35.423] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[21May2025 17:45:36.978] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21May2025 17:45:37.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[21May2025 17:45:39.124] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.12.2.94 Target: null
+[21May2025 17:45:39.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21May2025 17:45:39.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.2.21 Target: 40.3.0
+[21May2025 17:45:39.356] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[21May2025 17:45:39.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: AHEAD Current: 4.0.1.379 Target: null
+[21May2025 17:45:39.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[21May2025 17:45:39.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.7 Target: 5.9.8
+[21May2025 17:45:43.462] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21May2025 17:45:47.283] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/assets/.mcassetsroot' uses unexpected schema
+[21May2025 17:45:47.284] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/data/.mcassetsroot' uses unexpected schema
+[21May2025 17:45:53.607] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21May2025 17:45:53.612] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21May2025 17:45:53.636] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21May2025 17:45:53.642] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21May2025 17:45:53.651] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21May2025 17:46:02.363] [Worker-Main-2/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[21May2025 17:46:05.698] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1148 advancements
+[21May2025 17:46:07.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[21May2025 17:46:07.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21May2025 17:46:07.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21May2025 17:46:07.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21May2025 17:46:08.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21May2025 17:46:08.580] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21May2025 17:46:09.092] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21May2025 17:46:09.093] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21May2025 17:46:09.093] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21May2025 17:46:09.093] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21May2025 17:46:09.175] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21May2025 17:46:09.178] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21May2025 17:46:09.233] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21May2025 17:46:21.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21May2025 17:46:26.000] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.058] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.128] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.184] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.242] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.297] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.341] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.381] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.401] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.437] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.471] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:26.570] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:27.063] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:27.562] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:28.074] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:28.572] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:29.076] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:29.567] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:30.062] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:30.570] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:31.067] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:31.565] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:32.063] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:32.571] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 17:46:33.063] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[21May2025 17:46:33.568] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[21May2025 17:46:34.067] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[21May2025 17:46:34.567] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[21May2025 17:46:35.076] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[21May2025 17:46:35.562] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[21May2025 17:46:36.068] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[21May2025 17:46:36.563] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[21May2025 17:46:37.062] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[21May2025 17:46:37.568] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[21May2025 17:46:38.063] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[21May2025 17:46:38.563] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[21May2025 17:46:39.067] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[21May2025 17:46:39.562] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[21May2025 17:46:40.085] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[21May2025 17:46:40.571] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[21May2025 17:46:41.063] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[21May2025 17:46:41.588] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[21May2025 17:46:42.112] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[21May2025 17:46:42.581] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[21May2025 17:46:44.028] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 22967 ms
+[21May2025 17:46:44.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.886s)! For help, type "help"
+[21May2025 17:46:44.072] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21May2025 17:47:01.018] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4decb89f
+[21May2025 17:47:01.103] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.119.96.176:46437] logged in with entity id 70 at (289.0450911503543, 72.0, 695.0507125420635)
+[21May2025 17:47:01.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
+[21May2025 17:47:10.391] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9595ms or 191 ticks behind
+[21May2025 17:47:30.560] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[21May2025 17:47:51.430] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5884ms or 117 ticks behind
+[21May2025 17:48:48.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Applied effect Hero of the Village to SantRss29]
+[21May2025 17:49:29.194] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2148ms or 42 ticks behind
+[21May2025 17:53:05.413] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/709, l='ServerLevel[world]', x=-1471.07, y=63.00, z=87.53] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 17:53:31.272] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Applied effect Hero of the Village to SantRss29]
