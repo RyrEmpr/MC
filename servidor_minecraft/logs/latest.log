@@ -232,3 +232,10 @@
 [21May2025 15:10:12.681] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.119.79.90:44149] logged in with entity id 46034 at (239.28531576101415, 76.0, 750.4888014900124)
 [21May2025 15:10:12.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
 [21May2025 15:21:51.084] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/45004, l='ServerLevel[world]', x=-8.70, y=90.00, z=340.58] died, message: 'Villager was slain by umpichechi'
+[21May2025 15:25:29.175] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/45005, l='ServerLevel[world]', x=3.34, y=79.94, z=332.24] died, message: 'Fletcher was slain by umpichechi'
+[21May2025 15:25:34.638] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/45003, l='ServerLevel[world]', x=1.35, y=77.00, z=335.57] died, message: 'Fletcher was slain by umpichechi'
+[21May2025 15:26:31.537] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/45028, l='ServerLevel[world]', x=19.25, y=63.00, z=333.26] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 15:28:18.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi has made the advancement [Cover Me with Diamonds]
+[21May2025 15:30:20.191] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/49086, l='ServerLevel[world]', x=22.12, y=73.00, z=1074.07] died, message: 'Fletcher was slain by SantRss29'
+[21May2025 15:31:43.316] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: umpichechi lost connection: Disconnected
+[21May2025 15:31:43.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi left the game
