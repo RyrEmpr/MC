@@ -81,3 +81,41 @@
 [23May2025 21:58:15.945] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SantRss29[/127.104.248.100:55061] logged in with entity id 169 at (38.75698944292724, 108.0, 21.304701512214407)
 [23May2025 21:58:16.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
 [23May2025 22:05:04.246] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2, y=107, z=63} BlockPos{x=-4, y=104, z=63}
+[23May2025 22:06:26.923] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5257b6ec
+[23May2025 22:06:26.938] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: umpichechi[/127.168.139.193:38797] logged in with entity id 1630 at (35.90294163296619, 106.5, 21.170658630232897)
+[23May2025 22:06:26.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: umpichechi joined the game
+[23May2025 22:11:30.605] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=27, y=110, z=20} BlockPos{x=37, y=107, z=15}
+[23May2025 22:11:59.527] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=40, y=108, z=23} BlockPos{x=30, y=108, z=13}
+[23May2025 22:12:26.429] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=29, y=110, z=18} BlockPos{x=29, y=108, z=14}
+[23May2025 22:12:26.461] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=29, y=110, z=18} BlockPos{x=31, y=107, z=13}
+[23May2025 22:12:26.545] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=29, y=110, z=18} BlockPos{x=32, y=107, z=13}
+[23May2025 22:12:45.953] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was slain by umpichechi
+[23May2025 22:13:46.245] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=15}
+[23May2025 22:13:46.347] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:13:48.676] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=108, z=13}
+[23May2025 22:13:49.904] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:13:50.959] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=108, z=13}
+[23May2025 22:13:51.072] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=108, z=14}
+[23May2025 22:13:53.360] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=108, z=13}
+[23May2025 22:13:53.421] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=34, y=108, z=13}
+[23May2025 22:13:54.457] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=34, y=108, z=13}
+[23May2025 22:13:59.449] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=108, z=13}
+[23May2025 22:14:00.599] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=36, y=107, z=14}
+[23May2025 22:14:09.762] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:14:09.861] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=108, z=14}
+[23May2025 22:14:13.464] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:14:13.760] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:14:14.860] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=13}
+[23May2025 22:14:15.159] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=13}
+[23May2025 22:14:15.396] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=13}
+[23May2025 22:14:15.658] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=13}
+[23May2025 22:14:20.773] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=34, y=107, z=14}
+[23May2025 22:14:20.822] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=34, y=108, z=14}
+[23May2025 22:14:20.873] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=34, y=107, z=14}
+[23May2025 22:14:21.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:14:21.346] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:14:21.405] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=13}
+[23May2025 22:14:21.596] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=13}
+[23May2025 22:14:21.655] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:14:21.855] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=33, y=106, z=20} BlockPos{x=35, y=107, z=14}
+[23May2025 22:14:43.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Made SantRss29 no longer a server operator]
