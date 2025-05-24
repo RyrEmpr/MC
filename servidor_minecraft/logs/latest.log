@@ -107,3 +107,9 @@
 [24May2025 13:02:37.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 joined the game
 [24May2025 13:02:38.480] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2284ms or 45 ticks behind
 [24May2025 13:08:36.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 was shot by Skeleton
+[24May2025 13:11:23.149] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=46, y=120, z=18} BlockPos{x=46, y=119, z=18}
+[24May2025 13:14:52.691] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [SantRss29: Applied effect Hero of the Village to SantRss29]
+[24May2025 13:17:59.506] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/2836, l='ServerLevel[world]', x=779.35, y=71.94, z=-715.39] died, message: 'Fletcher was slain by SantRss29'
+[24May2025 13:18:14.742] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2146ms or 42 ticks behind
+[24May2025 13:21:32.340] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: SantRss29 fell from a high place
+[24May2025 13:25:20.058] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5475, l='ServerLevel[world]', x=3987.49, y=63.00, z=331.43] died, message: 'Villager was slain by SantRss29'
